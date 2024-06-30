@@ -51,8 +51,8 @@ class Place(models.Model):
     
 
 class Comment(CommonInfo):
-    Place=models.ForeignKey(Place,on_delete=models.CASCADE)
-    Active=models.BooleanField(default=False)
+    place=models.ForeignKey(Place,on_delete=models.CASCADE)
+    active=models.BooleanField(default=False)
     
     def __str__(self):
         return self.name
