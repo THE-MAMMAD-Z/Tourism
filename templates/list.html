@@ -16,7 +16,7 @@
                 </div>
                 <div class="tab-content">
                     <div id="tab-1" class="tab-pane fade show p-0 active">
-                        <div class="row g-4">
+                        <div class="row g-4 infinite-container">
                             
                             {% for obj in objects  %}
                             <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.3s">
@@ -37,22 +37,13 @@
                                 </div>
                             </div>
                             {% endfor %}
-                            
-                            
-                            </div>
-                            
-                        </div>
-                    </div>
-                    
-                                </div>
-                            </div>
-                            <div class="col-12 text-center">
-                                <a class="btn btn-primary py-3 px-5" href="">Browse More Property</a>
                             </div>
                         </div>
-                    </div>
-                </div>
+                    </div> 
             </div>
+        </div>
+        
+
         </div>
         <!-- Property List End -->
 
@@ -60,5 +51,5 @@
         <!-- Call to Action Start -->
         <!-- Call to Action End -->
         
-
+        
         {% endblock body %}

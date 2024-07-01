@@ -1,184 +1,55 @@
-2024-06-30 13:36:57,024 INFO autoreload Watching for file changes with StatReloader
-2024-06-30 13:36:57,028 INFO autoreload Watching for file changes with StatReloader
-2024-06-30 13:37:07,409 INFO basehttp "GET /admin/home/contact/add/ HTTP/1.1" 200 10986
-2024-06-30 13:37:08,292 INFO basehttp "GET /admin/home/contact/add/ HTTP/1.1" 200 10986
-2024-06-30 13:37:08,309 INFO basehttp "GET /admin/jsi18n/ HTTP/1.1" 200 3342
-2024-06-30 13:37:12,076 ERROR log Internal Server Error: /admin/home/contact/add/
-Traceback (most recent call last):
-  File "C:\Users\MOHAMMAD\Desktop\django projects\Tourism\env\Lib\site-packages\django\db\backends\base\base.py", line 299, in _commit
-    return self.connection.commit()
-           ^^^^^^^^^^^^^^^^^^^^^^^^
-sqlite3.IntegrityError: FOREIGN KEY constraint failed
-
-The above exception was the direct cause of the following exception:
-
-Traceback (most recent call last):
-  File "C:\Users\MOHAMMAD\Desktop\django projects\Tourism\env\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
-    response = get_response(request)
-               ^^^^^^^^^^^^^^^^^^^^^
-  File "C:\Users\MOHAMMAD\Desktop\django projects\Tourism\env\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
-    response = wrapped_callback(request, *callback_args, **callback_kwargs)
-               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  File "C:\Users\MOHAMMAD\Desktop\django projects\Tourism\env\Lib\site-packages\django\contrib\admin\options.py", line 716, in wrapper
-    return self.admin_site.admin_view(view)(*args, **kwargs)
-           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  File "C:\Users\MOHAMMAD\Desktop\django projects\Tourism\env\Lib\site-packages\django\utils\decorators.py", line 188, in _view_wrapper
-    result = _process_exception(request, e)
-             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  File "C:\Users\MOHAMMAD\Desktop\django projects\Tourism\env\Lib\site-packages\django\utils\decorators.py", line 186, in _view_wrapper
-    response = view_func(request, *args, **kwargs)
-               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  File "C:\Users\MOHAMMAD\Desktop\django projects\Tourism\env\Lib\site-packages\django\views\decorators\cache.py", line 80, in _view_wrapper
-    response = view_func(request, *args, **kwargs)
-               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  File "C:\Users\MOHAMMAD\Desktop\django projects\Tourism\env\Lib\site-packages\django\contrib\admin\sites.py", line 240, in inner
-    return view(request, *args, **kwargs)
-           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  File "C:\Users\MOHAMMAD\Desktop\django projects\Tourism\env\Lib\site-packages\django\contrib\admin\options.py", line 1945, in add_view
-    return self.changeform_view(request, None, form_url, extra_context)
-           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  File "C:\Users\MOHAMMAD\Desktop\django projects\Tourism\env\Lib\site-packages\django\utils\decorators.py", line 48, in _wrapper
-    return bound_method(*args, **kwargs)
-           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  File "C:\Users\MOHAMMAD\Desktop\django projects\Tourism\env\Lib\site-packages\django\utils\decorators.py", line 188, in _view_wrapper
-    result = _process_exception(request, e)
-             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  File "C:\Users\MOHAMMAD\Desktop\django projects\Tourism\env\Lib\site-packages\django\utils\decorators.py", line 186, in _view_wrapper
-    response = view_func(request, *args, **kwargs)
-               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  File "C:\Users\MOHAMMAD\Desktop\django projects\Tourism\env\Lib\site-packages\django\contrib\admin\options.py", line 1803, in changeform_view
-    with transaction.atomic(using=router.db_for_write(self.model)):
-  File "C:\Users\MOHAMMAD\Desktop\django projects\Tourism\env\Lib\site-packages\django\db\transaction.py", line 263, in __exit__
-    connection.commit()
-  File "C:\Users\MOHAMMAD\Desktop\django projects\Tourism\env\Lib\site-packages\django\utils\asyncio.py", line 26, in inner
-    return func(*args, **kwargs)
-           ^^^^^^^^^^^^^^^^^^^^^
-  File "C:\Users\MOHAMMAD\Desktop\django projects\Tourism\env\Lib\site-packages\django\db\backends\base\base.py", line 323, in commit
-    self._commit()
-  File "C:\Users\MOHAMMAD\Desktop\django projects\Tourism\env\Lib\site-packages\django\db\backends\base\base.py", line 298, in _commit
-    with debug_transaction(self, "COMMIT"), self.wrap_database_errors:
-  File "C:\Users\MOHAMMAD\Desktop\django projects\Tourism\env\Lib\site-packages\django\db\utils.py", line 91, in __exit__
-    raise dj_exc_value.with_traceback(traceback) from exc_value
-  File "C:\Users\MOHAMMAD\Desktop\django projects\Tourism\env\Lib\site-packages\django\db\backends\base\base.py", line 299, in _commit
-    return self.connection.commit()
-           ^^^^^^^^^^^^^^^^^^^^^^^^
-django.db.utils.IntegrityError: FOREIGN KEY constraint failed
-2024-06-30 13:37:12,080 ERROR basehttp "POST /admin/home/contact/add/ HTTP/1.1" 500 149457
-2024-06-30 23:20:53,067 INFO autoreload Watching for file changes with StatReloader
-2024-06-30 23:20:56,673 INFO basehttp "GET / HTTP/1.1" 200 56750
-2024-06-30 23:21:01,937 INFO basehttp "GET /admin/ HTTP/1.1" 302 0
-2024-06-30 23:21:01,978 INFO basehttp "GET /admin/login/?next=/admin/ HTTP/1.1" 200 4158
-2024-06-30 23:21:02,029 INFO basehttp "GET /static/admin/css/base.css HTTP/1.1" 304 0
-2024-06-30 23:21:02,029 INFO basehttp "GET /static/admin/css/dark_mode.css HTTP/1.1" 304 0
-2024-06-30 23:21:02,038 INFO basehttp "GET /static/admin/js/nav_sidebar.js HTTP/1.1" 304 0
-2024-06-30 23:21:02,041 INFO basehttp "GET /static/admin/css/nav_sidebar.css HTTP/1.1" 304 0
-2024-06-30 23:21:02,043 INFO basehttp "GET /static/admin/js/theme.js HTTP/1.1" 304 0
-2024-06-30 23:21:02,045 INFO basehttp "GET /static/admin/css/login.css HTTP/1.1" 304 0
-2024-06-30 23:21:02,045 INFO basehttp "GET /static/admin/css/responsive.css HTTP/1.1" 304 0
-2024-06-30 23:21:02,973 INFO basehttp "GET /admin/ HTTP/1.1" 302 0
-2024-06-30 23:21:02,982 INFO basehttp "GET /admin/login/?next=/admin/ HTTP/1.1" 200 4158
-2024-06-30 23:21:03,115 WARNING log Not Found: /favicon.ico
-2024-06-30 23:21:03,117 WARNING basehttp "GET /favicon.ico HTTP/1.1" 404 3314
-2024-06-30 23:21:08,973 INFO basehttp "POST /admin/login/?next=/admin/ HTTP/1.1" 200 4319
-2024-06-30 23:21:29,735 INFO basehttp "POST /admin/login/?next=/admin/ HTTP/1.1" 200 4319
-2024-06-30 23:22:24,394 INFO autoreload Watching for file changes with StatReloader
-2024-06-30 23:22:28,580 INFO basehttp "POST /admin/login/?next=/admin/ HTTP/1.1" 200 4319
-2024-06-30 23:22:38,711 INFO basehttp "POST /admin/login/?next=/admin/ HTTP/1.1" 302 0
-2024-06-30 23:22:38,730 INFO basehttp "GET /admin/ HTTP/1.1" 200 7270
-2024-06-30 23:22:38,754 INFO basehttp "GET /static/admin/css/dashboard.css HTTP/1.1" 304 0
-2024-06-30 23:22:38,761 INFO basehttp "GET /static/admin/img/icon-addlink.svg HTTP/1.1" 304 0
-2024-06-30 23:22:38,762 INFO basehttp "GET /static/admin/img/icon-changelink.svg HTTP/1.1" 304 0
-2024-06-30 23:22:42,775 INFO basehttp "GET /admin/home/contact/ HTTP/1.1" 200 8246
-2024-06-30 23:22:42,821 INFO basehttp "GET /static/admin/css/changelists.css HTTP/1.1" 304 0
-2024-06-30 23:22:42,823 INFO basehttp "GET /static/admin/js/vendor/jquery/jquery.js HTTP/1.1" 304 0
-2024-06-30 23:22:42,824 INFO basehttp "GET /static/admin/js/jquery.init.js HTTP/1.1" 304 0
-2024-06-30 23:22:42,826 INFO basehttp "GET /static/admin/js/core.js HTTP/1.1" 304 0
-2024-06-30 23:22:42,826 INFO basehttp "GET /static/admin/js/admin/RelatedObjectLookups.js HTTP/1.1" 304 0
-2024-06-30 23:22:42,830 INFO basehttp "GET /static/admin/js/urlify.js HTTP/1.1" 304 0
-2024-06-30 23:22:42,830 INFO basehttp "GET /static/admin/js/actions.js HTTP/1.1" 304 0
-2024-06-30 23:22:42,833 INFO basehttp "GET /static/admin/js/prepopulate.js HTTP/1.1" 304 0
-2024-06-30 23:22:42,835 INFO basehttp "GET /static/admin/js/vendor/xregexp/xregexp.js HTTP/1.1" 304 0
-2024-06-30 23:22:42,838 INFO basehttp "GET /admin/jsi18n/ HTTP/1.1" 200 3342
-2024-06-30 23:22:42,843 INFO basehttp "GET /static/admin/js/filters.js HTTP/1.1" 304 0
-2024-06-30 23:22:42,873 INFO basehttp "GET /static/admin/img/tooltag-add.svg HTTP/1.1" 304 0
-2024-06-30 23:22:45,270 INFO basehttp "GET /admin/home/place/ HTTP/1.1" 200 8232
-2024-06-30 23:22:45,299 INFO basehttp "GET /admin/jsi18n/ HTTP/1.1" 200 3342
-2024-06-30 23:22:46,221 INFO basehttp "GET /admin/home/contact/ HTTP/1.1" 200 8246
-2024-06-30 23:22:46,257 INFO basehttp "GET /admin/jsi18n/ HTTP/1.1" 200 3342
-2024-06-30 23:22:47,262 INFO basehttp "GET /admin/home/contact/add/ HTTP/1.1" 200 10984
-2024-06-30 23:22:47,287 INFO basehttp "GET /static/admin/js/prepopulate_init.js HTTP/1.1" 304 0
-2024-06-30 23:22:47,288 INFO basehttp "GET /static/admin/css/forms.css HTTP/1.1" 304 0
-2024-06-30 23:22:47,293 INFO basehttp "GET /admin/jsi18n/ HTTP/1.1" 200 3342
-2024-06-30 23:22:47,295 INFO basehttp "GET /static/admin/js/change_form.js HTTP/1.1" 304 0
-2024-06-30 23:22:47,295 INFO basehttp "GET /static/admin/css/widgets.css HTTP/1.1" 304 0
-2024-06-30 23:23:06,642 INFO basehttp "POST /admin/home/contact/add/ HTTP/1.1" 302 0
-2024-06-30 23:23:06,667 INFO basehttp "GET /admin/home/contact/ HTTP/1.1" 200 9699
-2024-06-30 23:23:06,704 INFO basehttp "GET /admin/jsi18n/ HTTP/1.1" 200 3342
-2024-06-30 23:23:06,719 INFO basehttp "GET /static/admin/img/icon-yes.svg HTTP/1.1" 304 0
-2024-07-01 00:03:41,281 INFO autoreload Watching for file changes with StatReloader
-2024-07-01 00:03:57,183 INFO basehttp "GET /admin/ HTTP/1.1" 302 0
-2024-07-01 00:03:57,232 INFO basehttp "GET /admin/login/?next=/admin/ HTTP/1.1" 200 4158
-2024-07-01 00:03:57,396 WARNING log Not Found: /favicon.ico
-2024-07-01 00:03:57,397 WARNING basehttp "GET /favicon.ico HTTP/1.1" 404 3314
-2024-07-01 00:04:19,127 INFO basehttp "GET / HTTP/1.1" 200 56750
-2024-07-01 00:05:00,432 WARNING basehttp "GET /static/img/favicon.ico HTTP/1.1" 404 1905
-2024-07-01 00:08:50,622 INFO basehttp "GET /admin/ HTTP/1.1" 200 7645
-2024-07-01 00:08:51,283 INFO basehttp "GET /admin/ HTTP/1.1" 200 7645
-2024-07-01 00:08:51,445 WARNING log Not Found: /favicon.ico
-2024-07-01 00:08:51,446 WARNING basehttp "GET /favicon.ico HTTP/1.1" 404 3314
-2024-07-01 00:08:53,606 INFO basehttp "GET /admin/home/place/ HTTP/1.1" 200 8232
-2024-07-01 00:08:53,662 INFO basehttp "GET /admin/jsi18n/ HTTP/1.1" 200 3342
-2024-07-01 00:08:55,170 INFO basehttp "GET /admin/home/place/add/ HTTP/1.1" 200 15580
-2024-07-01 00:08:55,222 INFO basehttp "GET /static/location_field/js/form.js HTTP/1.1" 304 0
-2024-07-01 00:08:55,225 INFO basehttp "GET /admin/jsi18n/ HTTP/1.1" 200 3342
-2024-07-01 00:08:55,313 INFO basehttp "GET /static/location_field/leaflet/leaflet.css HTTP/1.1" 304 0
-2024-07-01 00:08:55,324 INFO basehttp "GET /static/location_field/leaflet/leaflet.js HTTP/1.1" 304 0
-2024-07-01 00:08:55,356 INFO basehttp "GET /static/location_field/leaflet-geosearch/geosearch.umd.js HTTP/1.1" 304 0
-2024-07-01 00:08:55,412 INFO basehttp "GET /static/location_field/@googlemaps/js-api-loader/index.min.js HTTP/1.1" 304 0
-2024-07-01 00:08:55,439 INFO basehttp "GET /static/location_field/Leaflet.GoogleMutant.js HTTP/1.1" 304 0
-2024-07-01 00:08:56,226 INFO basehttp "GET /static/location_field/leaflet/images/marker-icon.png HTTP/1.1" 304 0
-2024-07-01 00:08:56,232 INFO basehttp "GET /static/location_field/leaflet/images/marker-icon-2x.png HTTP/1.1" 304 0
-2024-07-01 00:08:56,232 INFO basehttp "GET /static/location_field/leaflet/images/marker-shadow.png HTTP/1.1" 304 0
-2024-07-01 00:11:44,760 INFO basehttp "POST /admin/home/place/add/ HTTP/1.1" 302 0
-2024-07-01 00:11:44,799 INFO basehttp "GET /admin/home/place/ HTTP/1.1" 200 9696
-2024-07-01 00:11:44,858 INFO basehttp "GET /admin/jsi18n/ HTTP/1.1" 200 3342
-2024-07-01 00:11:47,511 INFO basehttp "GET /admin/home/place/add/ HTTP/1.1" 200 15580
-2024-07-01 00:11:47,554 INFO basehttp "GET /admin/jsi18n/ HTTP/1.1" 200 3342
-2024-07-01 00:55:28,224 INFO autoreload Watching for file changes with StatReloader
-2024-07-01 00:55:30,745 INFO basehttp "GET / HTTP/1.1" 200 56750
-2024-07-01 00:55:34,570 INFO basehttp "GET /admin/ HTTP/1.1" 200 7990
-2024-07-01 00:55:35,132 INFO basehttp "GET /admin/ HTTP/1.1" 200 7990
-2024-07-01 00:55:35,283 WARNING log Not Found: /favicon.ico
-2024-07-01 00:55:35,284 WARNING basehttp "GET /favicon.ico HTTP/1.1" 404 3314
-2024-07-01 00:55:37,328 INFO basehttp "GET /admin/home/place/ HTTP/1.1" 200 9497
-2024-07-01 00:55:37,365 INFO basehttp "GET /admin/jsi18n/ HTTP/1.1" 200 3342
-2024-07-01 00:55:38,991 INFO basehttp "GET /admin/home/place/add/ HTTP/1.1" 200 15580
-2024-07-01 00:55:39,022 INFO basehttp "GET /admin/jsi18n/ HTTP/1.1" 200 3342
-2024-07-01 01:01:37,194 INFO basehttp "POST /admin/home/place/add/ HTTP/1.1" 302 0
-2024-07-01 01:01:37,214 INFO basehttp "GET /admin/home/place/ HTTP/1.1" 200 9974
-2024-07-01 01:01:37,247 INFO basehttp "GET /admin/jsi18n/ HTTP/1.1" 200 3342
-2024-07-01 01:01:39,281 INFO basehttp "GET /admin/home/place/add/ HTTP/1.1" 200 15580
-2024-07-01 01:01:39,311 INFO basehttp "GET /admin/jsi18n/ HTTP/1.1" 200 3342
-2024-07-01 01:04:26,141 INFO basehttp "POST /admin/home/place/add/ HTTP/1.1" 302 0
-2024-07-01 01:04:26,162 INFO basehttp "GET /admin/home/place/ HTTP/1.1" 200 10233
-2024-07-01 01:04:26,193 INFO basehttp "GET /admin/jsi18n/ HTTP/1.1" 200 3342
-2024-07-01 01:04:29,201 INFO basehttp "GET /admin/home/place/add/ HTTP/1.1" 200 15580
-2024-07-01 01:04:29,233 INFO basehttp "GET /admin/jsi18n/ HTTP/1.1" 200 3342
-2024-07-01 01:10:40,896 INFO basehttp "POST /admin/home/place/add/ HTTP/1.1" 302 0
-2024-07-01 01:10:40,918 INFO basehttp "GET /admin/home/place/ HTTP/1.1" 200 10503
-2024-07-01 01:10:40,956 INFO basehttp "GET /admin/jsi18n/ HTTP/1.1" 200 3342
-2024-07-01 01:13:46,029 INFO basehttp "GET /admin/home/place/add/ HTTP/1.1" 200 15580
-2024-07-01 01:13:46,061 INFO basehttp "GET /admin/jsi18n/ HTTP/1.1" 200 3342
-2024-07-01 01:14:37,267 INFO basehttp "POST /admin/home/place/add/ HTTP/1.1" 302 0
-2024-07-01 01:14:37,290 INFO basehttp "GET /admin/home/place/ HTTP/1.1" 200 10765
-2024-07-01 01:14:37,321 INFO basehttp "GET /admin/jsi18n/ HTTP/1.1" 200 3342
-2024-07-01 01:14:42,176 INFO basehttp "GET /admin/home/place/add/ HTTP/1.1" 200 15580
-2024-07-01 01:14:42,207 INFO basehttp "GET /admin/jsi18n/ HTTP/1.1" 200 3342
-2024-07-01 01:16:06,987 INFO basehttp "POST /admin/home/place/add/ HTTP/1.1" 302 0
-2024-07-01 01:16:07,011 INFO basehttp "GET /admin/home/place/ HTTP/1.1" 200 11035
-2024-07-01 01:16:07,044 INFO basehttp "GET /admin/jsi18n/ HTTP/1.1" 200 3342
-2024-07-01 01:16:11,481 INFO basehttp "GET /admin/home/place/add/ HTTP/1.1" 200 15580
-2024-07-01 01:16:11,519 INFO basehttp "GET /admin/jsi18n/ HTTP/1.1" 200 3342
-2024-07-01 01:17:57,824 INFO basehttp "POST /admin/home/place/add/ HTTP/1.1" 302 0
-2024-07-01 01:17:57,845 INFO basehttp "GET /admin/home/place/ HTTP/1.1" 200 11291
-2024-07-01 01:17:57,876 INFO basehttp "GET /admin/jsi18n/ HTTP/1.1" 200 3342
+INFO autoreload Watching for file changes with StatReloader
+INFO basehttp "GET /admin/ HTTP/1.1" 200 10055
+INFO basehttp "GET /admin/ HTTP/1.1" 200 10055
+INFO basehttp "GET /admin/home/place/ HTTP/1.1" 200 11096
+INFO basehttp "GET /admin/jsi18n/ HTTP/1.1" 200 3342
+INFO basehttp "GET /admin/home/place/7/change/ HTTP/1.1" 200 22049
+INFO basehttp "GET /admin/jsi18n/ HTTP/1.1" 200 3342
+INFO basehttp "POST /admin/home/place/7/change/ HTTP/1.1" 302 0
+INFO basehttp "GET /admin/home/place/ HTTP/1.1" 200 11293
+INFO basehttp "GET /admin/jsi18n/ HTTP/1.1" 200 3342
+INFO basehttp "GET /admin/home/place/1/change/ HTTP/1.1" 200 20229
+INFO basehttp "GET /admin/jsi18n/ HTTP/1.1" 200 3342
+INFO basehttp "POST /admin/home/place/1/change/ HTTP/1.1" 302 0
+INFO basehttp "GET /admin/home/place/ HTTP/1.1" 200 11297
+INFO basehttp "GET /admin/jsi18n/ HTTP/1.1" 200 3342
+INFO basehttp "GET /admin/home/place/2/change/ HTTP/1.1" 200 22095
+INFO basehttp "GET /admin/jsi18n/ HTTP/1.1" 200 3342
+INFO basehttp "POST /admin/home/place/2/change/ HTTP/1.1" 302 0
+INFO basehttp "GET /admin/home/place/ HTTP/1.1" 200 11300
+INFO basehttp "GET /admin/jsi18n/ HTTP/1.1" 200 3342
+INFO basehttp "GET /admin/home/place/3/change/ HTTP/1.1" 200 22101
+INFO basehttp "GET /admin/jsi18n/ HTTP/1.1" 200 3342
+INFO basehttp "POST /admin/home/place/3/change/ HTTP/1.1" 302 0
+INFO basehttp "GET /admin/home/place/ HTTP/1.1" 200 11295
+INFO basehttp "GET /admin/jsi18n/ HTTP/1.1" 200 3342
+INFO basehttp "GET /admin/home/place/4/change/ HTTP/1.1" 200 22170
+INFO basehttp "GET /admin/jsi18n/ HTTP/1.1" 200 3342
+INFO basehttp "POST /admin/home/place/4/change/ HTTP/1.1" 302 0
+INFO basehttp "GET /admin/home/place/ HTTP/1.1" 200 11297
+INFO basehttp "GET /admin/jsi18n/ HTTP/1.1" 200 3342
+INFO basehttp "GET /admin/home/place/5/change/ HTTP/1.1" 200 22063
+INFO basehttp "GET /admin/jsi18n/ HTTP/1.1" 200 3342
+INFO basehttp "POST /admin/home/place/5/change/ HTTP/1.1" 302 0
+INFO basehttp "GET /admin/home/place/ HTTP/1.1" 200 11295
+INFO basehttp "GET /admin/jsi18n/ HTTP/1.1" 200 3342
+INFO basehttp "GET /admin/home/place/6/change/ HTTP/1.1" 200 22045
+INFO basehttp "GET /admin/jsi18n/ HTTP/1.1" 200 3342
+INFO basehttp "POST /admin/home/place/6/change/ HTTP/1.1" 302 0
+INFO basehttp "GET /admin/home/place/ HTTP/1.1" 200 11297
+INFO basehttp "GET /admin/jsi18n/ HTTP/1.1" 200 3342
+INFO basehttp "GET /admin/home/place/7/change/ HTTP/1.1" 200 22058
+INFO basehttp "GET /admin/jsi18n/ HTTP/1.1" 200 3342
+INFO basehttp "POST /admin/home/place/7/change/ HTTP/1.1" 302 0
+INFO basehttp "GET /admin/home/place/ HTTP/1.1" 200 11293
+INFO basehttp "GET /admin/jsi18n/ HTTP/1.1" 200 3342
+INFO basehttp "GET / HTTP/1.1" 200 59230
+INFO autoreload C:\Users\MOHAMMAD\Desktop\django projects\Tourism\home\views.py changed, reloading.
+INFO autoreload Watching for file changes with StatReloader
+INFO autoreload C:\Users\MOHAMMAD\Desktop\django projects\Tourism\home\views.py changed, reloading.
+INFO autoreload Watching for file changes with StatReloader
+INFO autoreload C:\Users\MOHAMMAD\Desktop\django projects\Tourism\home\views.py changed, reloading.
+INFO autoreload Watching for file changes with StatReloader
+INFO autoreload C:\Users\MOHAMMAD\Desktop\django projects\Tourism\home\views.py changed, reloading.
+INFO autoreload Watching for file changes with StatReloader
+INFO basehttp "POST /places/1/ HTTP/1.1" 200 15368

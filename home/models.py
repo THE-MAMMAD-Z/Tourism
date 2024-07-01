@@ -28,18 +28,18 @@ class Place(models.Model):
 
 
     place_type = [
-    ("Rs", "Restaurant"),
-    ("Pr", "Park"),
-    ("Zo","Zoo"),
-    ("Mu","Museum"),
-    ("Am","Amusement Park"),
-    ("Ma","Mall"),
-    ('Tw',"Tower"),
-    ('Hi','Historical'),
-    ("Ot","Other")
+    ("Restaurant", "Restaurant"),
+    ("Park", "Park"),
+    ("Zoo","Zoo"),
+    ("Museum","Museum"),
+    ("Amusement Park","Amusement Park"),
+    ("Mall","Mall"),
+    ('Tower',"Tower"),
+    ('Historical','Historical'),
+    ("Other","Other")
     ]
     
-    location_type = models.CharField(max_length=3,choices=place_type)
+    location_type = models.CharField(max_length=14,choices=place_type)
 
     class Meta:
         constraints = [
