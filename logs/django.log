@@ -196,3 +196,989 @@ INFO basehttp "GET / HTTP/1.1" 200 57035
 INFO basehttp "GET / HTTP/1.1" 200 57385
 INFO basehttp "GET / HTTP/1.1" 200 57010
 INFO basehttp "GET / HTTP/1.1" 200 56998
+INFO autoreload Watching for file changes with StatReloader
+INFO autoreload Watching for file changes with StatReloader
+WARNING log Not Found: /site.webmanifest
+WARNING basehttp "GET /site.webmanifest HTTP/1.1" 404 3350
+WARNING log Not Found: /site.webmanifest
+WARNING basehttp "GET /site.webmanifest HTTP/1.1" 404 3350
+INFO autoreload Watching for file changes with StatReloader
+WARNING log Not Found: /site.webmanifest
+WARNING basehttp "GET /site.webmanifest HTTP/1.1" 404 3350
+INFO basehttp "GET /admin/ HTTP/1.1" 302 0
+INFO basehttp "GET /admin/login/?next=/admin/ HTTP/1.1" 200 4158
+INFO basehttp "GET /admin/ HTTP/1.1" 302 0
+INFO basehttp "GET /admin/login/?next=/admin/ HTTP/1.1" 200 4158
+WARNING log Not Found: /favicon.ico
+WARNING basehttp "GET /favicon.ico HTTP/1.1" 404 3335
+INFO basehttp "POST /admin/login/?next=/admin/ HTTP/1.1" 200 4319
+INFO basehttp "POST /admin/login/?next=/admin/ HTTP/1.1" 200 4322
+INFO basehttp "POST /admin/login/?next=/admin/ HTTP/1.1" 302 0
+INFO basehttp "GET /admin/ HTTP/1.1" 200 10780
+INFO basehttp "GET /admin/account/customuser/ HTTP/1.1" 200 9553
+INFO basehttp "GET /admin/jsi18n/ HTTP/1.1" 200 3342
+INFO basehttp "GET /static/admin/js/filters.js HTTP/1.1" 200 978
+INFO basehttp "GET /static/admin/img/tooltag-add.svg HTTP/1.1" 200 331
+INFO basehttp "GET /admin/account/customuser/1/change/ HTTP/1.1" 200 15082
+INFO basehttp "GET /admin/jsi18n/ HTTP/1.1" 200 3342
+INFO basehttp "GET /static/admin/js/admin/DateTimeShortcuts.js HTTP/1.1" 200 19319
+INFO basehttp "GET /static/admin/js/calendar.js HTTP/1.1" 200 9141
+INFO basehttp "GET /static/admin/img/icon-calendar.svg HTTP/1.1" 200 1086
+INFO basehttp "GET /static/admin/img/icon-clock.svg HTTP/1.1" 200 677
+INFO basehttp "GET / HTTP/1.1" 200 56998
+INFO basehttp "GET /static/lib/owlcarousel/assets/owl.carousel.min.css HTTP/1.1" 200 2936
+INFO basehttp "GET /static/css/style.css HTTP/1.1" 200 8481
+INFO basehttp "GET /static/css/bootstrap.min.css HTTP/1.1" 200 164336
+INFO basehttp "GET /static/lib/animate/animate.min.css HTTP/1.1" 200 16964
+INFO basehttp "GET /static/lib/wow/wow.min.js HTTP/1.1" 200 8159
+INFO basehttp "GET /static/lib/easing/easing.min.js HTTP/1.1" 200 2303
+INFO basehttp "GET /static/lib/waypoints/waypoints.min.js HTTP/1.1" 200 9028
+INFO basehttp "GET /static/lib/owlcarousel/owl.carousel.min.js HTTP/1.1" 200 42766
+INFO basehttp "GET /static/js/main.js HTTP/1.1" 200 1854
+INFO basehttp "GET /static/img/icon-deal.png HTTP/1.1" 200 2882
+INFO basehttp "GET /static/img/carousel-1.jpg HTTP/1.1" 200 96328
+INFO basehttp "GET /static/img/carousel-2.jpg HTTP/1.1" 200 72148
+INFO basehttp "GET /static/img/about.jpg HTTP/1.1" 200 102293
+INFO basehttp "GET /static/img/property-1.jpg HTTP/1.1" 200 32364
+INFO basehttp "GET /static/img/property-2.jpg HTTP/1.1" 200 23004
+INFO basehttp "GET /static/img/property-3.jpg HTTP/1.1" 200 27647
+INFO basehttp "GET /static/img/property-4.jpg HTTP/1.1" 200 24481
+INFO basehttp "GET /static/img/property-5.jpg HTTP/1.1" 200 31052
+INFO basehttp "GET /static/img/property-6.jpg HTTP/1.1" 200 20562
+WARNING log Not Found: /account/register
+WARNING basehttp "GET /account/register HTTP/1.1" 404 3350
+INFO basehttp "GET /auth/login HTTP/1.1" 301 0
+INFO basehttp "GET /auth/login/ HTTP/1.1" 200 1140
+INFO basehttp "GET /static/account/styles.css HTTP/1.1" 200 2384
+INFO basehttp "GET /auth/signup/ HTTP/1.1" 200 2407
+INFO basehttp "GET /static/account/register.css HTTP/1.1" 200 3176
+INFO autoreload Watching for file changes with StatReloader
+INFO basehttp "GET / HTTP/1.1" 200 56998
+INFO basehttp "GET /admin/ HTTP/1.1" 302 0
+INFO basehttp "GET /admin/login/?next=/admin/ HTTP/1.1" 200 4158
+INFO basehttp "POST /admin/login/?next=/admin/ HTTP/1.1" 200 4319
+INFO basehttp "POST /admin/login/?next=/admin/ HTTP/1.1" 302 0
+INFO basehttp "GET /admin/ HTTP/1.1" 200 10780
+INFO basehttp "GET /admin/account/customuser/ HTTP/1.1" 200 9553
+INFO basehttp "GET /admin/jsi18n/ HTTP/1.1" 200 3342
+INFO basehttp "GET /admin/auth/group/ HTTP/1.1" 200 8585
+INFO basehttp "GET /admin/jsi18n/ HTTP/1.1" 200 3342
+INFO basehttp "GET /admin/account/customuser/ HTTP/1.1" 200 9553
+INFO basehttp "GET /admin/jsi18n/ HTTP/1.1" 200 3342
+WARNING log Not Found: /account/register/
+WARNING basehttp "GET /account/register/ HTTP/1.1" 404 3353
+WARNING log Not Found: /auth/register/
+WARNING basehttp "GET /auth/register/ HTTP/1.1" 404 3935
+INFO basehttp "GET /auth/signup/ HTTP/1.1" 200 2407
+INFO basehttp "POST /auth/signup/ HTTP/1.1" 302 0
+INFO basehttp "GET / HTTP/1.1" 200 56998
+INFO basehttp "GET /admin/ HTTP/1.1" 302 0
+INFO basehttp "GET /admin/login/?next=/admin/ HTTP/1.1" 200 3680
+INFO basehttp "POST /admin/login/?next=/admin/ HTTP/1.1" 302 0
+INFO basehttp "GET /admin/ HTTP/1.1" 200 10780
+INFO basehttp "GET /admin/account/customuser/ HTTP/1.1" 200 9822
+INFO basehttp "GET /admin/jsi18n/ HTTP/1.1" 200 3342
+INFO basehttp "GET /admin/account/customuser/2/change/ HTTP/1.1" 200 15109
+INFO basehttp "GET /admin/jsi18n/ HTTP/1.1" 200 3342
+INFO autoreload Watching for file changes with StatReloader
+INFO basehttp "GET / HTTP/1.1" 200 56998
+INFO basehttp "GET /admin/ HTTP/1.1" 302 0
+INFO basehttp "GET /admin/login/?next=/admin/ HTTP/1.1" 200 4158
+INFO basehttp "POST /admin/login/?next=/admin/ HTTP/1.1" 200 4319
+INFO basehttp "POST /admin/login/?next=/admin/ HTTP/1.1" 302 0
+INFO basehttp "GET /admin/ HTTP/1.1" 200 10780
+INFO basehttp "GET /admin/account/customuser/ HTTP/1.1" 200 9822
+INFO basehttp "GET /admin/jsi18n/ HTTP/1.1" 200 3342
+INFO basehttp "GET /admin/account/customuser/2/change/ HTTP/1.1" 200 15109
+INFO basehttp "GET /admin/jsi18n/ HTTP/1.1" 200 3342
+INFO basehttp "GET /admin/ HTTP/1.1" 200 10780
+INFO basehttp "GET / HTTP/1.1" 200 56998
+INFO basehttp "GET /admin/ HTTP/1.1" 200 10780
+INFO autoreload Watching for file changes with StatReloader
+INFO basehttp "GET / HTTP/1.1" 200 56998
+INFO basehttp "GET /static/css/bootstrap.min.css HTTP/1.1" 304 0
+INFO basehttp "GET /static/css/style.css HTTP/1.1" 304 0
+INFO basehttp "GET /static/js/main.js HTTP/1.1" 304 0
+WARNING log Not Found: /favicon.ico
+WARNING basehttp "GET /favicon.ico HTTP/1.1" 404 3335
+INFO basehttp "POST /places/1/ HTTP/1.1" 200 13126
+INFO basehttp "GET /media/places/R.jpg HTTP/1.1" 200 164310
+INFO basehttp "GET /about/ HTTP/1.1" 200 18488
+INFO basehttp "GET /static/img/call-to-action.jpg HTTP/1.1" 200 25769
+INFO basehttp "GET /static/img/team-1.jpg HTTP/1.1" 200 11262
+INFO basehttp "GET /static/img/team-2.jpg HTTP/1.1" 200 8294
+INFO basehttp "GET /static/img/team-3.jpg HTTP/1.1" 200 8410
+INFO basehttp "GET /static/img/team-4.jpg HTTP/1.1" 200 7684
+INFO basehttp "GET /contact/ HTTP/1.1" 200 17575
+INFO basehttp "POST /contact/ HTTP/1.1" 302 0
+INFO basehttp "GET /contact/ HTTP/1.1" 200 18173
+INFO basehttp "GET /admin/ HTTP/1.1" 302 0
+INFO basehttp "GET /admin/login/?next=/admin/ HTTP/1.1" 200 4158
+INFO basehttp "GET /static/admin/css/base.css HTTP/1.1" 304 0
+INFO basehttp "GET /static/admin/css/dark_mode.css HTTP/1.1" 200 2682
+INFO basehttp "GET /static/admin/css/nav_sidebar.css HTTP/1.1" 200 2810
+INFO basehttp "GET /static/admin/css/responsive.css HTTP/1.1" 200 17905
+INFO basehttp "GET /static/admin/css/login.css HTTP/1.1" 200 958
+INFO basehttp "GET /static/admin/js/nav_sidebar.js HTTP/1.1" 200 3063
+INFO basehttp "GET /static/admin/js/theme.js HTTP/1.1" 200 1943
+INFO basehttp "GET /admin/ HTTP/1.1" 302 0
+INFO basehttp "GET /admin/login/?next=/admin/ HTTP/1.1" 200 4158
+INFO basehttp "POST /admin/login/?next=/admin/ HTTP/1.1" 200 4319
+INFO basehttp "POST /admin/login/?next=/admin/ HTTP/1.1" 200 4317
+INFO basehttp "POST /admin/login/?next=/admin/ HTTP/1.1" 200 4317
+INFO basehttp "POST /admin/login/?next=/admin/ HTTP/1.1" 302 0
+INFO basehttp "GET /admin/ HTTP/1.1" 200 10780
+INFO basehttp "GET /static/admin/css/dashboard.css HTTP/1.1" 200 441
+INFO basehttp "GET /static/admin/img/icon-addlink.svg HTTP/1.1" 304 0
+INFO basehttp "GET /static/admin/img/icon-changelink.svg HTTP/1.1" 304 0
+INFO basehttp "GET /admin/ HTTP/1.1" 200 10780
+INFO basehttp "GET /admin/ HTTP/1.1" 200 10780
+INFO basehttp "GET /admin/home/contact/ HTTP/1.1" 200 9768
+INFO basehttp "GET /static/admin/js/filters.js HTTP/1.1" 304 0
+INFO basehttp "GET /admin/jsi18n/ HTTP/1.1" 200 3342
+INFO basehttp "GET /static/admin/img/tooltag-add.svg HTTP/1.1" 304 0
+INFO basehttp "GET /admin/home/contact/2/change/ HTTP/1.1" 200 11173
+INFO basehttp "GET /admin/jsi18n/ HTTP/1.1" 200 3342
+INFO basehttp "GET / HTTP/1.1" 200 56998
+INFO basehttp "GET /contact/ HTTP/1.1" 200 17575
+INFO basehttp "POST /contact/ HTTP/1.1" 302 0
+INFO basehttp "GET /contact/ HTTP/1.1" 200 18173
+INFO basehttp "POST /contact/ HTTP/1.1" 302 0
+INFO basehttp "GET /contact/ HTTP/1.1" 200 18162
+INFO basehttp "POST /contact/ HTTP/1.1" 302 0
+INFO basehttp "GET /contact/ HTTP/1.1" 200 18150
+INFO basehttp "GET /contact/ HTTP/1.1" 200 17575
+INFO basehttp "POST /contact/ HTTP/1.1" 302 0
+INFO basehttp "GET /contact/ HTTP/1.1" 200 18173
+INFO basehttp "GET / HTTP/1.1" 200 56998
+INFO autoreload C:\Users\MOHAMMAD\Desktop\django projects\Tourism\home\views.py changed, reloading.
+INFO autoreload Watching for file changes with StatReloader
+INFO autoreload C:\Users\MOHAMMAD\Desktop\django projects\Tourism\home\views.py changed, reloading.
+INFO autoreload Watching for file changes with StatReloader
+INFO basehttp "GET /places/0/ HTTP/1.1" 200 22514
+INFO basehttp "GET /media/places/milad_HVJSW26.jpg HTTP/1.1" 200 139102
+INFO basehttp "GET /media/places/lale_park.jpg HTTP/1.1" 200 237527
+INFO basehttp "GET /media/places/OIP_1.jpg HTTP/1.1" 200 28627
+INFO basehttp "GET /media/places/OIP_2.jpg HTTP/1.1" 200 77741
+INFO basehttp "GET /media/places/OIP_3.jpg HTTP/1.1" 200 62848
+INFO basehttp "GET /media/places/ac-image-0P1657164459HD.jpeg HTTP/1.1" 200 177935
+INFO autoreload C:\Users\MOHAMMAD\Desktop\django projects\Tourism\home\urls.py changed, reloading.
+INFO autoreload Watching for file changes with StatReloader
+INFO autoreload C:\Users\MOHAMMAD\Desktop\django projects\Tourism\home\urls.py changed, reloading.
+INFO autoreload Watching for file changes with StatReloader
+INFO autoreload C:\Users\MOHAMMAD\Desktop\django projects\Tourism\home\urls.py changed, reloading.
+INFO autoreload Watching for file changes with StatReloader
+ERROR log Internal Server Error: /
+Traceback (most recent call last):
+  File "C:\Users\MOHAMMAD\Desktop\django projects\Tourism\env\Lib\site-packages\django\urls\base.py", line 71, in reverse
+    extra, resolver = resolver.namespace_dict[ns]
+                      ~~~~~~~~~~~~~~~~~~~~~~~^^^^
+KeyError: 'news'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\MOHAMMAD\Desktop\django projects\Tourism\env\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\MOHAMMAD\Desktop\django projects\Tourism\env\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\MOHAMMAD\Desktop\django projects\Tourism\home\views.py", line 15, in home
+    return render(request, 'home/index.html',{'city':city.values,"types":types})
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\MOHAMMAD\Desktop\django projects\Tourism\env\Lib\site-packages\django\shortcuts.py", line 25, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\MOHAMMAD\Desktop\django projects\Tourism\env\Lib\site-packages\django\template\loader.py", line 62, in render_to_string
+    return template.render(context, request)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\MOHAMMAD\Desktop\django projects\Tourism\env\Lib\site-packages\django\template\backends\django.py", line 61, in render
+    return self.template.render(context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\MOHAMMAD\Desktop\django projects\Tourism\env\Lib\site-packages\django\template\base.py", line 171, in render
+    return self._render(context)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\MOHAMMAD\Desktop\django projects\Tourism\env\Lib\site-packages\django\template\base.py", line 163, in _render
+    return self.nodelist.render(context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\MOHAMMAD\Desktop\django projects\Tourism\env\Lib\site-packages\django\template\base.py", line 1000, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+                              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\MOHAMMAD\Desktop\django projects\Tourism\env\Lib\site-packages\django\template\base.py", line 1000, in <listcomp>
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+                               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\MOHAMMAD\Desktop\django projects\Tourism\env\Lib\site-packages\django\template\base.py", line 961, in render_annotated
+    return self.render(context)
+           ^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\MOHAMMAD\Desktop\django projects\Tourism\env\Lib\site-packages\django\template\loader_tags.py", line 159, in render
+    return compiled_parent._render(context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\MOHAMMAD\Desktop\django projects\Tourism\env\Lib\site-packages\django\template\base.py", line 163, in _render
+    return self.nodelist.render(context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\MOHAMMAD\Desktop\django projects\Tourism\env\Lib\site-packages\django\template\base.py", line 1000, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+                              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\MOHAMMAD\Desktop\django projects\Tourism\env\Lib\site-packages\django\template\base.py", line 1000, in <listcomp>
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+                               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\MOHAMMAD\Desktop\django projects\Tourism\env\Lib\site-packages\django\template\base.py", line 961, in render_annotated
+    return self.render(context)
+           ^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\MOHAMMAD\Desktop\django projects\Tourism\env\Lib\site-packages\django\template\defaulttags.py", line 479, in render
+    url = reverse(view_name, args=args, kwargs=kwargs, current_app=current_app)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\MOHAMMAD\Desktop\django projects\Tourism\env\Lib\site-packages\django\urls\base.py", line 82, in reverse
+    raise NoReverseMatch("%s is not a registered namespace" % key)
+django.urls.exceptions.NoReverseMatch: 'news' is not a registered namespace
+ERROR basehttp "GET / HTTP/1.1" 500 169611
+INFO basehttp "GET / HTTP/1.1" 200 57103
+INFO autoreload C:\Users\MOHAMMAD\Desktop\django projects\Tourism\home\views.py changed, reloading.
+INFO autoreload Watching for file changes with StatReloader
+INFO autoreload C:\Users\MOHAMMAD\Desktop\django projects\Tourism\home\views.py changed, reloading.
+INFO autoreload Watching for file changes with StatReloader
+INFO autoreload C:\Users\MOHAMMAD\Desktop\django projects\Tourism\home\views.py changed, reloading.
+INFO autoreload Watching for file changes with StatReloader
+INFO autoreload C:\Users\MOHAMMAD\Desktop\django projects\Tourism\home\views.py changed, reloading.
+INFO autoreload Watching for file changes with StatReloader
+INFO autoreload C:\Users\MOHAMMAD\Desktop\django projects\Tourism\home\views.py changed, reloading.
+INFO autoreload Watching for file changes with StatReloader
+INFO autoreload C:\Users\MOHAMMAD\Desktop\django projects\Tourism\home\views.py changed, reloading.
+INFO autoreload Watching for file changes with StatReloader
+INFO autoreload C:\Users\MOHAMMAD\Desktop\django projects\Tourism\home\views.py changed, reloading.
+INFO autoreload Watching for file changes with StatReloader
+INFO autoreload C:\Users\MOHAMMAD\Desktop\django projects\Tourism\home\views.py changed, reloading.
+INFO autoreload Watching for file changes with StatReloader
+INFO autoreload C:\Users\MOHAMMAD\Desktop\django projects\Tourism\home\views.py changed, reloading.
+INFO autoreload Watching for file changes with StatReloader
+INFO autoreload C:\Users\MOHAMMAD\Desktop\django projects\Tourism\home\views.py changed, reloading.
+INFO autoreload Watching for file changes with StatReloader
+INFO autoreload C:\Users\MOHAMMAD\Desktop\django projects\Tourism\home\views.py changed, reloading.
+INFO autoreload Watching for file changes with StatReloader
+INFO autoreload C:\Users\MOHAMMAD\Desktop\django projects\Tourism\home\views.py changed, reloading.
+INFO autoreload Watching for file changes with StatReloader
+INFO autoreload C:\Users\MOHAMMAD\Desktop\django projects\Tourism\home\views.py changed, reloading.
+INFO autoreload Watching for file changes with StatReloader
+INFO autoreload C:\Users\MOHAMMAD\Desktop\django projects\Tourism\home\views.py changed, reloading.
+INFO autoreload Watching for file changes with StatReloader
+INFO autoreload C:\Users\MOHAMMAD\Desktop\django projects\Tourism\home\views.py changed, reloading.
+INFO autoreload Watching for file changes with StatReloader
+INFO autoreload C:\Users\MOHAMMAD\Desktop\django projects\Tourism\home\views.py changed, reloading.
+INFO autoreload Watching for file changes with StatReloader
+INFO autoreload C:\Users\MOHAMMAD\Desktop\django projects\Tourism\home\views.py changed, reloading.
+INFO autoreload Watching for file changes with StatReloader
+INFO autoreload C:\Users\MOHAMMAD\Desktop\django projects\Tourism\home\views.py changed, reloading.
+INFO autoreload Watching for file changes with StatReloader
+INFO autoreload C:\Users\MOHAMMAD\Desktop\django projects\Tourism\home\views.py changed, reloading.
+INFO autoreload Watching for file changes with StatReloader
+INFO autoreload C:\Users\MOHAMMAD\Desktop\django projects\Tourism\home\models.py changed, reloading.
+INFO autoreload Watching for file changes with StatReloader
+INFO autoreload C:\Users\MOHAMMAD\Desktop\django projects\Tourism\home\models.py changed, reloading.
+INFO autoreload Watching for file changes with StatReloader
+INFO autoreload C:\Users\MOHAMMAD\Desktop\django projects\Tourism\home\views.py changed, reloading.
+INFO autoreload Watching for file changes with StatReloader
+ERROR log Internal Server Error: /places/1/
+Traceback (most recent call last):
+  File "C:\Users\MOHAMMAD\Desktop\django projects\Tourism\env\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\MOHAMMAD\Desktop\django projects\Tourism\env\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\MOHAMMAD\Desktop\django projects\Tourism\home\views.py", line 57, in places
+    return render(request , 'list.html',{"objects" : result})
+                                                     ^^^^^^
+UnboundLocalError: cannot access local variable 'result' where it is not associated with a value
+ERROR basehttp "GET /places/1/?q=lorem HTTP/1.1" 500 72532
+INFO autoreload C:\Users\MOHAMMAD\Desktop\django projects\Tourism\home\views.py changed, reloading.
+INFO autoreload Watching for file changes with StatReloader
+INFO autoreload C:\Users\MOHAMMAD\Desktop\django projects\Tourism\home\views.py changed, reloading.
+INFO autoreload Watching for file changes with StatReloader
+INFO autoreload C:\Users\MOHAMMAD\Desktop\django projects\Tourism\home\views.py changed, reloading.
+INFO autoreload Watching for file changes with StatReloader
+ERROR log Internal Server Error: /places/1/
+Traceback (most recent call last):
+  File "C:\Users\MOHAMMAD\Desktop\django projects\Tourism\env\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\MOHAMMAD\Desktop\django projects\Tourism\env\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\MOHAMMAD\Desktop\django projects\Tourism\home\views.py", line 58, in places
+    return render(request , 'list.html',{"objects" : result})
+                                                     ^^^^^^
+UnboundLocalError: cannot access local variable 'result' where it is not associated with a value
+ERROR basehttp "GET /places/1/?q=lorem HTTP/1.1" 500 72674
+ERROR log Internal Server Error: /places/1/
+Traceback (most recent call last):
+  File "C:\Users\MOHAMMAD\Desktop\django projects\Tourism\env\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\MOHAMMAD\Desktop\django projects\Tourism\env\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\MOHAMMAD\Desktop\django projects\Tourism\home\views.py", line 58, in places
+    return render(request , 'list.html',{"objects" : result})
+                                                     ^^^^^^
+UnboundLocalError: cannot access local variable 'result' where it is not associated with a value
+ERROR basehttp "GET /places/1/?q=lorem HTTP/1.1" 500 72674
+ERROR log Internal Server Error: /places/1/
+Traceback (most recent call last):
+  File "C:\Users\MOHAMMAD\Desktop\django projects\Tourism\env\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\MOHAMMAD\Desktop\django projects\Tourism\env\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\MOHAMMAD\Desktop\django projects\Tourism\home\views.py", line 58, in places
+    return render(request , 'list.html',{"objects" : result})
+                                                     ^^^^^^
+UnboundLocalError: cannot access local variable 'result' where it is not associated with a value
+ERROR basehttp "GET /places/1/?q=lorem HTTP/1.1" 500 72537
+INFO autoreload C:\Users\MOHAMMAD\Desktop\django projects\Tourism\home\views.py changed, reloading.
+INFO autoreload Watching for file changes with StatReloader
+INFO autoreload C:\Users\MOHAMMAD\Desktop\django projects\Tourism\home\views.py changed, reloading.
+INFO autoreload Watching for file changes with StatReloader
+INFO basehttp "GET /places/1/?q=lorem HTTP/1.1" 200 22619
+INFO basehttp "GET /places/2/?q=paladum HTTP/1.1" 200 13253
+INFO autoreload Watching for file changes with StatReloader
+INFO basehttp "GET / HTTP/1.1" 200 57103
+INFO basehttp "GET / HTTP/1.1" 200 57030
+ERROR log Internal Server Error: /
+Traceback (most recent call last):
+  File "C:\Users\MOHAMMAD\Desktop\django projects\Tourism\env\Lib\site-packages\django\urls\base.py", line 71, in reverse
+    extra, resolver = resolver.namespace_dict[ns]
+                      ~~~~~~~~~~~~~~~~~~~~~~~^^^^
+KeyError: 'accunt'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\MOHAMMAD\Desktop\django projects\Tourism\env\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\MOHAMMAD\Desktop\django projects\Tourism\env\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\MOHAMMAD\Desktop\django projects\Tourism\home\views.py", line 16, in home
+    return render(request, 'home/index.html',{'city':city.values,"types":types})
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\MOHAMMAD\Desktop\django projects\Tourism\env\Lib\site-packages\django\shortcuts.py", line 25, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\MOHAMMAD\Desktop\django projects\Tourism\env\Lib\site-packages\django\template\loader.py", line 62, in render_to_string
+    return template.render(context, request)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\MOHAMMAD\Desktop\django projects\Tourism\env\Lib\site-packages\django\template\backends\django.py", line 61, in render
+    return self.template.render(context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\MOHAMMAD\Desktop\django projects\Tourism\env\Lib\site-packages\django\template\base.py", line 171, in render
+    return self._render(context)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\MOHAMMAD\Desktop\django projects\Tourism\env\Lib\site-packages\django\template\base.py", line 163, in _render
+    return self.nodelist.render(context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\MOHAMMAD\Desktop\django projects\Tourism\env\Lib\site-packages\django\template\base.py", line 1000, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+                              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\MOHAMMAD\Desktop\django projects\Tourism\env\Lib\site-packages\django\template\base.py", line 1000, in <listcomp>
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+                               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\MOHAMMAD\Desktop\django projects\Tourism\env\Lib\site-packages\django\template\base.py", line 961, in render_annotated
+    return self.render(context)
+           ^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\MOHAMMAD\Desktop\django projects\Tourism\env\Lib\site-packages\django\template\loader_tags.py", line 159, in render
+    return compiled_parent._render(context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\MOHAMMAD\Desktop\django projects\Tourism\env\Lib\site-packages\django\template\base.py", line 163, in _render
+    return self.nodelist.render(context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\MOHAMMAD\Desktop\django projects\Tourism\env\Lib\site-packages\django\template\base.py", line 1000, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+                              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\MOHAMMAD\Desktop\django projects\Tourism\env\Lib\site-packages\django\template\base.py", line 1000, in <listcomp>
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+                               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\MOHAMMAD\Desktop\django projects\Tourism\env\Lib\site-packages\django\template\base.py", line 961, in render_annotated
+    return self.render(context)
+           ^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\MOHAMMAD\Desktop\django projects\Tourism\env\Lib\site-packages\django\template\defaulttags.py", line 326, in render
+    return nodelist.render(context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\MOHAMMAD\Desktop\django projects\Tourism\env\Lib\site-packages\django\template\base.py", line 1000, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+                              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\MOHAMMAD\Desktop\django projects\Tourism\env\Lib\site-packages\django\template\base.py", line 1000, in <listcomp>
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+                               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\MOHAMMAD\Desktop\django projects\Tourism\env\Lib\site-packages\django\template\base.py", line 961, in render_annotated
+    return self.render(context)
+           ^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\MOHAMMAD\Desktop\django projects\Tourism\env\Lib\site-packages\django\template\defaulttags.py", line 479, in render
+    url = reverse(view_name, args=args, kwargs=kwargs, current_app=current_app)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\MOHAMMAD\Desktop\django projects\Tourism\env\Lib\site-packages\django\urls\base.py", line 82, in reverse
+    raise NoReverseMatch("%s is not a registered namespace" % key)
+django.urls.exceptions.NoReverseMatch: 'accunt' is not a registered namespace
+ERROR basehttp "GET / HTTP/1.1" 500 189093
+INFO basehttp "GET / HTTP/1.1" 200 57152
+ERROR log Internal Server Error: /auth/profile/
+Traceback (most recent call last):
+  File "C:\Users\MOHAMMAD\Desktop\django projects\Tourism\env\Lib\site-packages\django\template\base.py", line 875, in _resolve_lookup
+    current = current[bit]
+              ~~~~~~~^^^^^
+TypeError: 'ImageFieldFile' object is not subscriptable
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\MOHAMMAD\Desktop\django projects\Tourism\env\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\MOHAMMAD\Desktop\django projects\Tourism\env\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\MOHAMMAD\Desktop\django projects\Tourism\env\Lib\site-packages\django\contrib\auth\decorators.py", line 23, in _wrapper_view
+    return view_func(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\MOHAMMAD\Desktop\django projects\Tourism\account\views.py", line 59, in profile
+    return render(request,'account/profile.html',context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\MOHAMMAD\Desktop\django projects\Tourism\env\Lib\site-packages\django\shortcuts.py", line 25, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\MOHAMMAD\Desktop\django projects\Tourism\env\Lib\site-packages\django\template\loader.py", line 62, in render_to_string
+    return template.render(context, request)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\MOHAMMAD\Desktop\django projects\Tourism\env\Lib\site-packages\django\template\backends\django.py", line 61, in render
+    return self.template.render(context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\MOHAMMAD\Desktop\django projects\Tourism\env\Lib\site-packages\django\template\base.py", line 171, in render
+    return self._render(context)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\MOHAMMAD\Desktop\django projects\Tourism\env\Lib\site-packages\django\template\base.py", line 163, in _render
+    return self.nodelist.render(context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\MOHAMMAD\Desktop\django projects\Tourism\env\Lib\site-packages\django\template\base.py", line 1000, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+                              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\MOHAMMAD\Desktop\django projects\Tourism\env\Lib\site-packages\django\template\base.py", line 1000, in <listcomp>
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+                               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\MOHAMMAD\Desktop\django projects\Tourism\env\Lib\site-packages\django\template\base.py", line 961, in render_annotated
+    return self.render(context)
+           ^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\MOHAMMAD\Desktop\django projects\Tourism\env\Lib\site-packages\django\template\base.py", line 1059, in render
+    output = self.filter_expression.resolve(context)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\MOHAMMAD\Desktop\django projects\Tourism\env\Lib\site-packages\django\template\base.py", line 710, in resolve
+    obj = self.var.resolve(context)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\MOHAMMAD\Desktop\django projects\Tourism\env\Lib\site-packages\django\template\base.py", line 842, in resolve
+    value = self._resolve_lookup(context)
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\MOHAMMAD\Desktop\django projects\Tourism\env\Lib\site-packages\django\template\base.py", line 885, in _resolve_lookup
+    current = getattr(current, bit)
+              ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\MOHAMMAD\Desktop\django projects\Tourism\env\Lib\site-packages\django\db\models\fields\files.py", line 66, in url
+    self._require_file()
+  File "C:\Users\MOHAMMAD\Desktop\django projects\Tourism\env\Lib\site-packages\django\db\models\fields\files.py", line 41, in _require_file
+    raise ValueError(
+ValueError: The 'profile_photo' attribute has no file associated with it.
+ERROR basehttp "GET /auth/profile/ HTTP/1.1" 500 150194
+INFO basehttp "GET /admin/ HTTP/1.1" 200 10780
+INFO basehttp "GET /admin/ HTTP/1.1" 200 10780
+INFO basehttp "POST /admin/logout/ HTTP/1.1" 200 3553
+INFO basehttp "GET / HTTP/1.1" 200 57150
+INFO basehttp "GET /auth/login/ HTTP/1.1" 200 1140
+INFO basehttp "GET /static/account/styles.css HTTP/1.1" 304 0
+INFO basehttp "GET /auth/login/ HTTP/1.1" 200 1152
+INFO basehttp "GET /auth/login/ HTTP/1.1" 200 1152
+INFO basehttp "GET /auth/signup/ HTTP/1.1" 200 2407
+INFO basehttp "GET /static/account/register.css HTTP/1.1" 304 0
+INFO basehttp "POST /auth/signup/ HTTP/1.1" 302 0
+INFO basehttp "GET / HTTP/1.1" 200 57152
+INFO basehttp "GET /admin/ HTTP/1.1" 302 0
+INFO basehttp "GET /admin/login/?next=/admin/ HTTP/1.1" 200 3681
+INFO basehttp "POST /admin/login/?next=/admin/ HTTP/1.1" 302 0
+INFO basehttp "GET /admin/ HTTP/1.1" 200 10780
+INFO basehttp "GET /admin/account/customuser/ HTTP/1.1" 200 10092
+INFO basehttp "GET /admin/jsi18n/ HTTP/1.1" 200 3342
+INFO basehttp "GET /admin/account/customuser/3/change/ HTTP/1.1" 200 15113
+INFO basehttp "GET /static/admin/js/calendar.js HTTP/1.1" 304 0
+INFO basehttp "GET /static/admin/js/admin/DateTimeShortcuts.js HTTP/1.1" 304 0
+INFO basehttp "GET /admin/jsi18n/ HTTP/1.1" 200 3342
+INFO basehttp "GET /static/admin/img/icon-calendar.svg HTTP/1.1" 304 0
+INFO basehttp "GET /static/admin/img/icon-clock.svg HTTP/1.1" 304 0
+INFO basehttp "GET / HTTP/1.1" 200 57152
+ERROR log Internal Server Error: /auth/profile/
+Traceback (most recent call last):
+  File "C:\Users\MOHAMMAD\Desktop\django projects\Tourism\env\Lib\site-packages\django\template\base.py", line 875, in _resolve_lookup
+    current = current[bit]
+              ~~~~~~~^^^^^
+TypeError: 'ImageFieldFile' object is not subscriptable
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\MOHAMMAD\Desktop\django projects\Tourism\env\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\MOHAMMAD\Desktop\django projects\Tourism\env\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\MOHAMMAD\Desktop\django projects\Tourism\env\Lib\site-packages\django\contrib\auth\decorators.py", line 23, in _wrapper_view
+    return view_func(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\MOHAMMAD\Desktop\django projects\Tourism\account\views.py", line 59, in profile
+    return render(request,'account/profile.html',context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\MOHAMMAD\Desktop\django projects\Tourism\env\Lib\site-packages\django\shortcuts.py", line 25, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\MOHAMMAD\Desktop\django projects\Tourism\env\Lib\site-packages\django\template\loader.py", line 62, in render_to_string
+    return template.render(context, request)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\MOHAMMAD\Desktop\django projects\Tourism\env\Lib\site-packages\django\template\backends\django.py", line 61, in render
+    return self.template.render(context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\MOHAMMAD\Desktop\django projects\Tourism\env\Lib\site-packages\django\template\base.py", line 171, in render
+    return self._render(context)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\MOHAMMAD\Desktop\django projects\Tourism\env\Lib\site-packages\django\template\base.py", line 163, in _render
+    return self.nodelist.render(context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\MOHAMMAD\Desktop\django projects\Tourism\env\Lib\site-packages\django\template\base.py", line 1000, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+                              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\MOHAMMAD\Desktop\django projects\Tourism\env\Lib\site-packages\django\template\base.py", line 1000, in <listcomp>
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+                               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\MOHAMMAD\Desktop\django projects\Tourism\env\Lib\site-packages\django\template\base.py", line 961, in render_annotated
+    return self.render(context)
+           ^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\MOHAMMAD\Desktop\django projects\Tourism\env\Lib\site-packages\django\template\base.py", line 1059, in render
+    output = self.filter_expression.resolve(context)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\MOHAMMAD\Desktop\django projects\Tourism\env\Lib\site-packages\django\template\base.py", line 710, in resolve
+    obj = self.var.resolve(context)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\MOHAMMAD\Desktop\django projects\Tourism\env\Lib\site-packages\django\template\base.py", line 842, in resolve
+    value = self._resolve_lookup(context)
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\MOHAMMAD\Desktop\django projects\Tourism\env\Lib\site-packages\django\template\base.py", line 885, in _resolve_lookup
+    current = getattr(current, bit)
+              ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\MOHAMMAD\Desktop\django projects\Tourism\env\Lib\site-packages\django\db\models\fields\files.py", line 66, in url
+    self._require_file()
+  File "C:\Users\MOHAMMAD\Desktop\django projects\Tourism\env\Lib\site-packages\django\db\models\fields\files.py", line 41, in _require_file
+    raise ValueError(
+ValueError: The 'profile_photo' attribute has no file associated with it.
+ERROR basehttp "GET /auth/profile/ HTTP/1.1" 500 150194
+INFO autoreload Watching for file changes with StatReloader
+INFO basehttp "GET / HTTP/1.1" 200 57154
+WARNING log Not Found: /account/profile/
+WARNING basehttp "GET /account/profile/ HTTP/1.1" 404 3350
+WARNING log Not Found: /favicon.ico
+WARNING basehttp "GET /favicon.ico HTTP/1.1" 404 3335
+ERROR log Internal Server Error: /auth/profile/
+Traceback (most recent call last):
+  File "C:\Users\MOHAMMAD\Desktop\django projects\Tourism\env\Lib\site-packages\django\template\base.py", line 875, in _resolve_lookup
+    current = current[bit]
+              ~~~~~~~^^^^^
+TypeError: 'ImageFieldFile' object is not subscriptable
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\MOHAMMAD\Desktop\django projects\Tourism\env\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\MOHAMMAD\Desktop\django projects\Tourism\env\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\MOHAMMAD\Desktop\django projects\Tourism\env\Lib\site-packages\django\contrib\auth\decorators.py", line 23, in _wrapper_view
+    return view_func(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\MOHAMMAD\Desktop\django projects\Tourism\account\views.py", line 59, in profile
+    return render(request,'account/profile.html',context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\MOHAMMAD\Desktop\django projects\Tourism\env\Lib\site-packages\django\shortcuts.py", line 25, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\MOHAMMAD\Desktop\django projects\Tourism\env\Lib\site-packages\django\template\loader.py", line 62, in render_to_string
+    return template.render(context, request)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\MOHAMMAD\Desktop\django projects\Tourism\env\Lib\site-packages\django\template\backends\django.py", line 61, in render
+    return self.template.render(context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\MOHAMMAD\Desktop\django projects\Tourism\env\Lib\site-packages\django\template\base.py", line 171, in render
+    return self._render(context)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\MOHAMMAD\Desktop\django projects\Tourism\env\Lib\site-packages\django\template\base.py", line 163, in _render
+    return self.nodelist.render(context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\MOHAMMAD\Desktop\django projects\Tourism\env\Lib\site-packages\django\template\base.py", line 1000, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+                              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\MOHAMMAD\Desktop\django projects\Tourism\env\Lib\site-packages\django\template\base.py", line 1000, in <listcomp>
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+                               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\MOHAMMAD\Desktop\django projects\Tourism\env\Lib\site-packages\django\template\base.py", line 961, in render_annotated
+    return self.render(context)
+           ^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\MOHAMMAD\Desktop\django projects\Tourism\env\Lib\site-packages\django\template\base.py", line 1059, in render
+    output = self.filter_expression.resolve(context)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\MOHAMMAD\Desktop\django projects\Tourism\env\Lib\site-packages\django\template\base.py", line 710, in resolve
+    obj = self.var.resolve(context)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\MOHAMMAD\Desktop\django projects\Tourism\env\Lib\site-packages\django\template\base.py", line 842, in resolve
+    value = self._resolve_lookup(context)
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\MOHAMMAD\Desktop\django projects\Tourism\env\Lib\site-packages\django\template\base.py", line 885, in _resolve_lookup
+    current = getattr(current, bit)
+              ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\MOHAMMAD\Desktop\django projects\Tourism\env\Lib\site-packages\django\db\models\fields\files.py", line 66, in url
+    self._require_file()
+  File "C:\Users\MOHAMMAD\Desktop\django projects\Tourism\env\Lib\site-packages\django\db\models\fields\files.py", line 41, in _require_file
+    raise ValueError(
+ValueError: The 'profile_photo' attribute has no file associated with it.
+ERROR basehttp "GET /auth/profile/ HTTP/1.1" 500 150043
+INFO basehttp "GET /auth/profile/ HTTP/1.1" 200 12577
+INFO basehttp "GET /static/account/profile.css HTTP/1.1" 200 1982
+WARNING basehttp "GET /static/img/favicon.ico HTTP/1.1" 404 1905
+INFO basehttp "GET /auth/login/ HTTP/1.1" 200 1152
+INFO basehttp "POST /auth/login/ HTTP/1.1" 200 1152
+INFO basehttp "POST /auth/login/ HTTP/1.1" 302 0
+INFO basehttp "GET / HTTP/1.1" 200 57154
+INFO basehttp "GET /auth/profile/ HTTP/1.1" 200 12577
+INFO basehttp "GET /auth/profile/ HTTP/1.1" 200 12577
+ERROR log Internal Server Error: /auth/profile/
+Traceback (most recent call last):
+  File "C:\Users\MOHAMMAD\Desktop\django projects\Tourism\env\Lib\site-packages\django\template\base.py", line 875, in _resolve_lookup
+    current = current[bit]
+              ~~~~~~~^^^^^
+TypeError: 'ImageFieldFile' object is not subscriptable
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\MOHAMMAD\Desktop\django projects\Tourism\env\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\MOHAMMAD\Desktop\django projects\Tourism\env\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\MOHAMMAD\Desktop\django projects\Tourism\env\Lib\site-packages\django\contrib\auth\decorators.py", line 23, in _wrapper_view
+    return view_func(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\MOHAMMAD\Desktop\django projects\Tourism\account\views.py", line 59, in profile
+    return render(request,'account/profile.html',context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\MOHAMMAD\Desktop\django projects\Tourism\env\Lib\site-packages\django\shortcuts.py", line 25, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\MOHAMMAD\Desktop\django projects\Tourism\env\Lib\site-packages\django\template\loader.py", line 62, in render_to_string
+    return template.render(context, request)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\MOHAMMAD\Desktop\django projects\Tourism\env\Lib\site-packages\django\template\backends\django.py", line 61, in render
+    return self.template.render(context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\MOHAMMAD\Desktop\django projects\Tourism\env\Lib\site-packages\django\template\base.py", line 171, in render
+    return self._render(context)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\MOHAMMAD\Desktop\django projects\Tourism\env\Lib\site-packages\django\template\base.py", line 163, in _render
+    return self.nodelist.render(context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\MOHAMMAD\Desktop\django projects\Tourism\env\Lib\site-packages\django\template\base.py", line 1000, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+                              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\MOHAMMAD\Desktop\django projects\Tourism\env\Lib\site-packages\django\template\base.py", line 1000, in <listcomp>
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+                               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\MOHAMMAD\Desktop\django projects\Tourism\env\Lib\site-packages\django\template\base.py", line 961, in render_annotated
+    return self.render(context)
+           ^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\MOHAMMAD\Desktop\django projects\Tourism\env\Lib\site-packages\django\template\base.py", line 1059, in render
+    output = self.filter_expression.resolve(context)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\MOHAMMAD\Desktop\django projects\Tourism\env\Lib\site-packages\django\template\base.py", line 710, in resolve
+    obj = self.var.resolve(context)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\MOHAMMAD\Desktop\django projects\Tourism\env\Lib\site-packages\django\template\base.py", line 842, in resolve
+    value = self._resolve_lookup(context)
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\MOHAMMAD\Desktop\django projects\Tourism\env\Lib\site-packages\django\template\base.py", line 885, in _resolve_lookup
+    current = getattr(current, bit)
+              ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\MOHAMMAD\Desktop\django projects\Tourism\env\Lib\site-packages\django\db\models\fields\files.py", line 66, in url
+    self._require_file()
+  File "C:\Users\MOHAMMAD\Desktop\django projects\Tourism\env\Lib\site-packages\django\db\models\fields\files.py", line 41, in _require_file
+    raise ValueError(
+ValueError: The 'profile_photo' attribute has no file associated with it.
+ERROR basehttp "GET /auth/profile/ HTTP/1.1" 500 150340
+INFO autoreload C:\Users\MOHAMMAD\Desktop\django projects\Tourism\account\views.py changed, reloading.
+INFO autoreload Watching for file changes with StatReloader
+INFO autoreload C:\Users\MOHAMMAD\Desktop\django projects\Tourism\account\views.py changed, reloading.
+INFO autoreload Watching for file changes with StatReloader
+INFO autoreload Watching for file changes with StatReloader
+INFO autoreload C:\Users\MOHAMMAD\Desktop\django projects\Tourism\account\urls.py changed, reloading.
+INFO autoreload Watching for file changes with StatReloader
+ERROR log Internal Server Error: /auth/profile/
+Traceback (most recent call last):
+  File "C:\Users\MOHAMMAD\Desktop\django projects\Tourism\env\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\MOHAMMAD\Desktop\django projects\Tourism\env\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\MOHAMMAD\Desktop\django projects\Tourism\env\Lib\site-packages\django\views\generic\base.py", line 104, in view
+    return self.dispatch(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\MOHAMMAD\Desktop\django projects\Tourism\env\Lib\site-packages\django\views\generic\base.py", line 143, in dispatch
+    return handler(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\MOHAMMAD\Desktop\django projects\Tourism\env\Lib\site-packages\django\views\generic\detail.py", line 108, in get
+    self.object = self.get_object()
+                  ^^^^^^^^^^^^^^^^^
+  File "C:\Users\MOHAMMAD\Desktop\django projects\Tourism\account\views.py", line 70, in get_object
+    return get_object_or_404(CustomUser, username=self.kwargs['username'])
+                                                  ~~~~~~~~~~~^^^^^^^^^^^^
+KeyError: 'username'
+ERROR basehttp "GET /auth/profile/ HTTP/1.1" 500 84362
+INFO autoreload C:\Users\MOHAMMAD\Desktop\django projects\Tourism\account\urls.py changed, reloading.
+INFO autoreload Watching for file changes with StatReloader
+WARNING log Not Found: /auth/profile/
+WARNING basehttp "GET /auth/profile/ HTTP/1.1" 404 3953
+INFO basehttp "GET /auth/profile/alishonbv HTTP/1.1" 301 0
+WARNING log Not Found: /auth/profile/alishonbv/
+WARNING basehttp "GET /auth/profile/alishonbv/ HTTP/1.1" 404 3897
+WARNING log Not Found: /auth/profile/
+WARNING basehttp "GET /auth/profile/ HTTP/1.1" 404 3953
+INFO basehttp "GET /auth/login/ HTTP/1.1" 200 1152
+INFO basehttp "POST /auth/login/ HTTP/1.1" 200 1152
+INFO basehttp "POST /auth/login/ HTTP/1.1" 200 1152
+WARNING log Not Found: /auth/profile/
+WARNING basehttp "GET /auth/profile/ HTTP/1.1" 404 3953
+INFO basehttp "GET /auth/profile/mmd HTTP/1.1" 301 0
+ERROR log Internal Server Error: /auth/profile/mmd/
+Traceback (most recent call last):
+  File "C:\Users\MOHAMMAD\Desktop\django projects\Tourism\env\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\MOHAMMAD\Desktop\django projects\Tourism\env\Lib\site-packages\django\core\handlers\base.py", line 220, in _get_response
+    response = response.render()
+               ^^^^^^^^^^^^^^^^^
+  File "C:\Users\MOHAMMAD\Desktop\django projects\Tourism\env\Lib\site-packages\django\template\response.py", line 114, in render
+    self.content = self.rendered_content
+                   ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\MOHAMMAD\Desktop\django projects\Tourism\env\Lib\site-packages\django\template\response.py", line 90, in rendered_content
+    template = self.resolve_template(self.template_name)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\MOHAMMAD\Desktop\django projects\Tourism\env\Lib\site-packages\django\template\response.py", line 72, in resolve_template
+    return select_template(template, using=self.using)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\MOHAMMAD\Desktop\django projects\Tourism\env\Lib\site-packages\django\template\loader.py", line 47, in select_template
+    raise TemplateDoesNotExist(", ".join(template_name_list), chain=chain)
+django.template.exceptions.TemplateDoesNotExist: profile.html
+ERROR basehttp "GET /auth/profile/mmd/ HTTP/1.1" 500 86743
+INFO autoreload C:\Users\MOHAMMAD\Desktop\django projects\Tourism\account\views.py changed, reloading.
+INFO autoreload Watching for file changes with StatReloader
+INFO basehttp "GET /auth/profile/mmd/ HTTP/1.1" 200 12577
+INFO basehttp "GET /admin/ HTTP/1.1" 200 10780
+INFO basehttp "GET /admin/ HTTP/1.1" 200 10780
+INFO basehttp "GET /admin/account/customuser/ HTTP/1.1" 200 10092
+INFO basehttp "GET /admin/jsi18n/ HTTP/1.1" 200 3342
+INFO basehttp "GET /auth/profile/alishon HTTP/1.1" 301 0
+INFO basehttp "GET /auth/profile/alishon/ HTTP/1.1" 200 12595
+INFO basehttp "GET /auth/profile/alishonh/ HTTP/1.1" 200 12596
+ERROR log Internal Server Error: /auth/profile/alishonh/
+Traceback (most recent call last):
+  File "C:\Users\MOHAMMAD\Desktop\django projects\Tourism\env\Lib\site-packages\django\template\base.py", line 875, in _resolve_lookup
+    current = current[bit]
+              ~~~~~~~^^^^^
+TypeError: 'ImageFieldFile' object is not subscriptable
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\MOHAMMAD\Desktop\django projects\Tourism\env\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\MOHAMMAD\Desktop\django projects\Tourism\env\Lib\site-packages\django\core\handlers\base.py", line 220, in _get_response
+    response = response.render()
+               ^^^^^^^^^^^^^^^^^
+  File "C:\Users\MOHAMMAD\Desktop\django projects\Tourism\env\Lib\site-packages\django\template\response.py", line 114, in render
+    self.content = self.rendered_content
+                   ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\MOHAMMAD\Desktop\django projects\Tourism\env\Lib\site-packages\django\template\response.py", line 92, in rendered_content
+    return template.render(context, self._request)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\MOHAMMAD\Desktop\django projects\Tourism\env\Lib\site-packages\django\template\backends\django.py", line 61, in render
+    return self.template.render(context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\MOHAMMAD\Desktop\django projects\Tourism\env\Lib\site-packages\django\template\base.py", line 171, in render
+    return self._render(context)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\MOHAMMAD\Desktop\django projects\Tourism\env\Lib\site-packages\django\template\base.py", line 163, in _render
+    return self.nodelist.render(context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\MOHAMMAD\Desktop\django projects\Tourism\env\Lib\site-packages\django\template\base.py", line 1000, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+                              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\MOHAMMAD\Desktop\django projects\Tourism\env\Lib\site-packages\django\template\base.py", line 1000, in <listcomp>
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+                               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\MOHAMMAD\Desktop\django projects\Tourism\env\Lib\site-packages\django\template\base.py", line 961, in render_annotated
+    return self.render(context)
+           ^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\MOHAMMAD\Desktop\django projects\Tourism\env\Lib\site-packages\django\template\base.py", line 1059, in render
+    output = self.filter_expression.resolve(context)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\MOHAMMAD\Desktop\django projects\Tourism\env\Lib\site-packages\django\template\base.py", line 710, in resolve
+    obj = self.var.resolve(context)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\MOHAMMAD\Desktop\django projects\Tourism\env\Lib\site-packages\django\template\base.py", line 842, in resolve
+    value = self._resolve_lookup(context)
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\MOHAMMAD\Desktop\django projects\Tourism\env\Lib\site-packages\django\template\base.py", line 885, in _resolve_lookup
+    current = getattr(current, bit)
+              ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\MOHAMMAD\Desktop\django projects\Tourism\env\Lib\site-packages\django\db\models\fields\files.py", line 66, in url
+    self._require_file()
+  File "C:\Users\MOHAMMAD\Desktop\django projects\Tourism\env\Lib\site-packages\django\db\models\fields\files.py", line 41, in _require_file
+    raise ValueError(
+ValueError: The 'profile_photo' attribute has no file associated with it.
+ERROR basehttp "GET /auth/profile/alishonh/ HTTP/1.1" 500 141910
+INFO basehttp "GET /admin/ HTTP/1.1" 200 10780
+INFO basehttp "GET /admin/account/customuser/ HTTP/1.1" 200 10092
+INFO basehttp "GET /admin/jsi18n/ HTTP/1.1" 200 3342
+INFO basehttp "GET /admin/account/customuser/3/change/ HTTP/1.1" 200 15113
+INFO basehttp "GET /admin/jsi18n/ HTTP/1.1" 200 3342
+INFO basehttp "POST /admin/account/customuser/3/change/ HTTP/1.1" 302 0
+INFO basehttp "GET /admin/account/customuser/ HTTP/1.1" 200 10304
+INFO basehttp "GET /admin/jsi18n/ HTTP/1.1" 200 3342
+INFO basehttp "GET /auth/login/ HTTP/1.1" 200 1152
+ERROR log Internal Server Error: /auth/profile/alishon/
+Traceback (most recent call last):
+  File "C:\Users\MOHAMMAD\Desktop\django projects\Tourism\env\Lib\site-packages\django\template\base.py", line 875, in _resolve_lookup
+    current = current[bit]
+              ~~~~~~~^^^^^
+TypeError: 'ImageFieldFile' object is not subscriptable
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\MOHAMMAD\Desktop\django projects\Tourism\env\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\MOHAMMAD\Desktop\django projects\Tourism\env\Lib\site-packages\django\core\handlers\base.py", line 220, in _get_response
+    response = response.render()
+               ^^^^^^^^^^^^^^^^^
+  File "C:\Users\MOHAMMAD\Desktop\django projects\Tourism\env\Lib\site-packages\django\template\response.py", line 114, in render
+    self.content = self.rendered_content
+                   ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\MOHAMMAD\Desktop\django projects\Tourism\env\Lib\site-packages\django\template\response.py", line 92, in rendered_content
+    return template.render(context, self._request)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\MOHAMMAD\Desktop\django projects\Tourism\env\Lib\site-packages\django\template\backends\django.py", line 61, in render
+    return self.template.render(context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\MOHAMMAD\Desktop\django projects\Tourism\env\Lib\site-packages\django\template\base.py", line 171, in render
+    return self._render(context)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\MOHAMMAD\Desktop\django projects\Tourism\env\Lib\site-packages\django\template\base.py", line 163, in _render
+    return self.nodelist.render(context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\MOHAMMAD\Desktop\django projects\Tourism\env\Lib\site-packages\django\template\base.py", line 1000, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+                              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\MOHAMMAD\Desktop\django projects\Tourism\env\Lib\site-packages\django\template\base.py", line 1000, in <listcomp>
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+                               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\MOHAMMAD\Desktop\django projects\Tourism\env\Lib\site-packages\django\template\base.py", line 961, in render_annotated
+    return self.render(context)
+           ^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\MOHAMMAD\Desktop\django projects\Tourism\env\Lib\site-packages\django\template\base.py", line 1059, in render
+    output = self.filter_expression.resolve(context)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\MOHAMMAD\Desktop\django projects\Tourism\env\Lib\site-packages\django\template\base.py", line 710, in resolve
+    obj = self.var.resolve(context)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\MOHAMMAD\Desktop\django projects\Tourism\env\Lib\site-packages\django\template\base.py", line 842, in resolve
+    value = self._resolve_lookup(context)
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\MOHAMMAD\Desktop\django projects\Tourism\env\Lib\site-packages\django\template\base.py", line 885, in _resolve_lookup
+    current = getattr(current, bit)
+              ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\MOHAMMAD\Desktop\django projects\Tourism\env\Lib\site-packages\django\db\models\fields\files.py", line 66, in url
+    self._require_file()
+  File "C:\Users\MOHAMMAD\Desktop\django projects\Tourism\env\Lib\site-packages\django\db\models\fields\files.py", line 41, in _require_file
+    raise ValueError(
+ValueError: The 'profile_photo' attribute has no file associated with it.
+ERROR basehttp "GET /auth/profile/alishon/ HTTP/1.1" 500 141738
+INFO basehttp "GET /auth/profile/alishonh/ HTTP/1.1" 200 12671
+INFO basehttp "GET /media/profile_photos/autumn-2560x1440-forest-mountain-5k-16242_5vcABiy.jpg HTTP/1.1" 200 1490028
+INFO basehttp "GET /auth/profile/alishon/ HTTP/1.1" 200 12601
+INFO autoreload C:\Users\MOHAMMAD\Desktop\django projects\Tourism\account\views.py changed, reloading.
+INFO autoreload Watching for file changes with StatReloader
+INFO autoreload C:\Users\MOHAMMAD\Desktop\django projects\Tourism\account\views.py changed, reloading.
+INFO autoreload Watching for file changes with StatReloader
+ERROR log Internal Server Error: /auth/profile/alishon/
+Traceback (most recent call last):
+  File "C:\Users\MOHAMMAD\Desktop\django projects\Tourism\env\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\MOHAMMAD\Desktop\django projects\Tourism\env\Lib\site-packages\django\core\handlers\base.py", line 220, in _get_response
+    response = response.render()
+               ^^^^^^^^^^^^^^^^^
+  File "C:\Users\MOHAMMAD\Desktop\django projects\Tourism\env\Lib\site-packages\django\template\response.py", line 114, in render
+    self.content = self.rendered_content
+                   ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\MOHAMMAD\Desktop\django projects\Tourism\env\Lib\site-packages\django\template\response.py", line 90, in rendered_content
+    template = self.resolve_template(self.template_name)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\MOHAMMAD\Desktop\django projects\Tourism\env\Lib\site-packages\django\template\response.py", line 72, in resolve_template
+    return select_template(template, using=self.using)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\MOHAMMAD\Desktop\django projects\Tourism\env\Lib\site-packages\django\template\loader.py", line 47, in select_template
+    raise TemplateDoesNotExist(", ".join(template_name_list), chain=chain)
+django.template.exceptions.TemplateDoesNotExist: profile.html
+ERROR basehttp "GET /auth/profile/alishon/ HTTP/1.1" 500 86920
+INFO autoreload C:\Users\MOHAMMAD\Desktop\django projects\Tourism\account\views.py changed, reloading.
+INFO autoreload Watching for file changes with StatReloader
+INFO autoreload C:\Users\MOHAMMAD\Desktop\django projects\Tourism\account\views.py changed, reloading.
+INFO autoreload Watching for file changes with StatReloader
+INFO autoreload C:\Users\MOHAMMAD\Desktop\django projects\Tourism\account\views.py changed, reloading.
+INFO autoreload Watching for file changes with StatReloader
+INFO basehttp "GET /auth/profile/alishon/ HTTP/1.1" 200 12601
+WARNING log Not Found: /auth/profile/alishonv/
+WARNING basehttp "GET /auth/profile/alishonv/ HTTP/1.1" 404 3894
+INFO basehttp "GET /auth/profile/alishon/ HTTP/1.1" 200 12601
+INFO basehttp "GET /auth/profile/alishonh/ HTTP/1.1" 200 12733
+INFO basehttp "GET /media/profile_photos/autumn-2560x1440-forest-mountain-5k-16242_5vcABiy.jpg HTTP/1.1" 304 0
+INFO autoreload C:\Users\MOHAMMAD\Desktop\django projects\Tourism\account\views.py changed, reloading.
+INFO autoreload Watching for file changes with StatReloader
+INFO autoreload C:\Users\MOHAMMAD\Desktop\django projects\Tourism\account\views.py changed, reloading.
+INFO autoreload Watching for file changes with StatReloader
+INFO autoreload C:\Users\MOHAMMAD\Desktop\django projects\Tourism\account\views.py changed, reloading.
+INFO autoreload Watching for file changes with StatReloader
+INFO autoreload C:\Users\MOHAMMAD\Desktop\django projects\Tourism\account\urls.py changed, reloading.
+INFO autoreload Watching for file changes with StatReloader
+INFO autoreload C:\Users\MOHAMMAD\Desktop\django projects\Tourism\account\urls.py changed, reloading.
+INFO autoreload Watching for file changes with StatReloader
+WARNING log Not Found: /auth/profile/alishonh/
+WARNING basehttp "GET /auth/profile/alishonh/ HTTP/1.1" 404 3959
+INFO basehttp "GET /auth/profile/ HTTP/1.1" 200 12583
+INFO basehttp "GET /auth/login/ HTTP/1.1" 200 1152
+INFO basehttp "POST /auth/login/ HTTP/1.1" 200 1152
+INFO basehttp "POST /auth/login/ HTTP/1.1" 200 1152
+INFO basehttp "POST /auth/login/ HTTP/1.1" 200 1152
+INFO basehttp "POST /auth/login/ HTTP/1.1" 302 0
+INFO basehttp "GET / HTTP/1.1" 200 57154
+INFO basehttp "GET /auth/profile/ HTTP/1.1" 200 12601
+INFO basehttp "GET / HTTP/1.1" 200 57154
+INFO basehttp "GET /auth/profile/ HTTP/1.1" 200 12601
+INFO basehttp "GET /auth/profile/ HTTP/1.1" 200 12651

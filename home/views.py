@@ -6,6 +6,7 @@ from django.views.generic.list import ListView
 from django.db.models import F, Value, CharField
 from django.db.models.functions import Concat
 from .models import Place
+from django.db.models import Q
 
 
 def home(request):
@@ -45,6 +46,13 @@ def places(request,code):
             print(city_name,location_name)
             result = Place.objects.filter(city=city_name,location_type=location_name)
             #return render(request , 'list.html',{"objects" : result})
+
+    if code==2:
+        query = request.GET.get('q', '')
+        print(query)
+        result = Place.objects.filter(Q(name__icontains=query) | Q(description__icontains=query))
+    
+        
     else :
         result = Place.objects.all()
     return render(request , 'list.html',{"objects" : result})

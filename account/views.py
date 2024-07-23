@@ -6,6 +6,10 @@ from django.views import View
 from .forms import CustomUserCreationForm, CustomAuthenticationForm
 from django.contrib.auth.decorators import login_required
 from django.contrib import messages
+from django.shortcuts import get_object_or_404
+from django.views.generic.detail import DetailView
+from .models import CustomUser
+from django.contrib.auth.mixins import LoginRequiredMixin
 
 
 
@@ -49,7 +53,7 @@ def logout_view(request):
 
 
 @login_required
-def profile(request):
+def ProfileView(request):
     profile=request.user
     photo=request.user.profile_photo
     context = {
@@ -57,3 +61,12 @@ def profile(request):
         "photo" : photo,
     }
     return render(request,'account/profile.html',context)
+
+# class ProfileView(LoginRequiredMixin, DetailView):
+#     model = CustomUser
+#     template_name = 'account/profile.html'
+#     context_object_name = 'profile'
+#     login_url = '/auth/login/'  # Update this to your login URL if different
+
+#     def get_object(self):
+#         return get_object_or_404(CustomUser, username=self.kwargs['username'])

@@ -4,7 +4,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Profile</title>
     <link rel="stylesheet" href="{% static "account/profile.css" %} ">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/MaterialDesign-Webfont/3.6.95/css/materialdesignicons.css">
@@ -74,7 +74,11 @@
                         </div>
                         <a href="{% url "home:contact" %}" class="nav-item nav-link">Contact</a>
                     </div>
-                    <a href="" class="btn btn-primary px-3 d-none d-lg-flex">Add Property</a>
+                    {% if not user.is_authenticated %}
+                    <a href="{% url "account:login" %}" class="btn btn-primary px-3 d-none d-lg-flex">Login</a>
+                    {% else %}
+                    <a href="{% url "account:profile" %}" class="btn btn-primary px-3 d-none d-lg-flex">Profile</a>
+                    {% endif %}
                 </div>
             </nav>
         </div>
@@ -90,7 +94,11 @@
                 <div class="col-sm-4 bg-c-lite-green user-profile">
                     <div class="card-block text-center text-white">
                         <div class="m-b-25">
-                            <img style='width:120px; height:120px' src="{{ photo.url }}" class="img-radius" alt="User-Profile-Image">
+                            {% if profile.profile_photo %}
+                                <img style='width:120px; height:120px' src="{{ profile.profile_photo.url }}" class="img-radius" alt="User-Profile-Image">
+                            {% else %}
+                                <p>No profile photo available.</p>
+                            {% endif %}
                         </div>
                         <h6 class="f-w-600">{{profile.full_name}}</h6>
                     </div>
