@@ -53,3 +53,146 @@ INFO autoreload Watching for file changes with StatReloader
 INFO autoreload C:\Users\MOHAMMAD\Desktop\django projects\Tourism\home\views.py changed, reloading.
 INFO autoreload Watching for file changes with StatReloader
 INFO basehttp "POST /places/1/ HTTP/1.1" 200 15368
+INFO autoreload Watching for file changes with StatReloader
+INFO basehttp "GET / HTTP/1.1" 200 59230
+INFO basehttp "GET / HTTP/1.1" 200 59170
+INFO basehttp "GET / HTTP/1.1" 200 58969
+INFO basehttp "GET / HTTP/1.1" 200 58980
+INFO basehttp "GET /about/ HTTP/1.1" 200 20470
+INFO basehttp "GET /about/ HTTP/1.1" 200 19163
+INFO basehttp "GET /about/ HTTP/1.1" 200 19413
+INFO basehttp "GET /contact/ HTTP/1.1" 200 18500
+INFO basehttp "GET / HTTP/1.1" 200 57923
+INFO autoreload Watching for file changes with StatReloader
+INFO basehttp "GET / HTTP/1.1" 200 57912
+WARNING log Not Found: /favicon.ico
+WARNING basehttp "GET /favicon.ico HTTP/1.1" 404 3335
+INFO basehttp "GET / HTTP/1.1" 200 57504
+ERROR log Internal Server Error: /
+Traceback (most recent call last):
+  File "C:\Users\MOHAMMAD\Desktop\django projects\Tourism\env\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\MOHAMMAD\Desktop\django projects\Tourism\env\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\MOHAMMAD\Desktop\django projects\Tourism\home\views.py", line 15, in home
+    return render(request, 'home/index.html',{'city':city.values,"types":types})
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\MOHAMMAD\Desktop\django projects\Tourism\env\Lib\site-packages\django\shortcuts.py", line 25, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\MOHAMMAD\Desktop\django projects\Tourism\env\Lib\site-packages\django\template\loader.py", line 62, in render_to_string
+    return template.render(context, request)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\MOHAMMAD\Desktop\django projects\Tourism\env\Lib\site-packages\django\template\backends\django.py", line 61, in render
+    return self.template.render(context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\MOHAMMAD\Desktop\django projects\Tourism\env\Lib\site-packages\django\template\base.py", line 171, in render
+    return self._render(context)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\MOHAMMAD\Desktop\django projects\Tourism\env\Lib\site-packages\django\template\base.py", line 163, in _render
+    return self.nodelist.render(context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\MOHAMMAD\Desktop\django projects\Tourism\env\Lib\site-packages\django\template\base.py", line 1000, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+                              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\MOHAMMAD\Desktop\django projects\Tourism\env\Lib\site-packages\django\template\base.py", line 1000, in <listcomp>
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+                               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\MOHAMMAD\Desktop\django projects\Tourism\env\Lib\site-packages\django\template\base.py", line 961, in render_annotated
+    return self.render(context)
+           ^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\MOHAMMAD\Desktop\django projects\Tourism\env\Lib\site-packages\django\template\loader_tags.py", line 159, in render
+    return compiled_parent._render(context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\MOHAMMAD\Desktop\django projects\Tourism\env\Lib\site-packages\django\template\base.py", line 163, in _render
+    return self.nodelist.render(context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\MOHAMMAD\Desktop\django projects\Tourism\env\Lib\site-packages\django\template\base.py", line 1000, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+                              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\MOHAMMAD\Desktop\django projects\Tourism\env\Lib\site-packages\django\template\base.py", line 1000, in <listcomp>
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+                               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\MOHAMMAD\Desktop\django projects\Tourism\env\Lib\site-packages\django\template\base.py", line 961, in render_annotated
+    return self.render(context)
+           ^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\MOHAMMAD\Desktop\django projects\Tourism\env\Lib\site-packages\django\template\defaulttags.py", line 479, in render
+    url = reverse(view_name, args=args, kwargs=kwargs, current_app=current_app)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\MOHAMMAD\Desktop\django projects\Tourism\env\Lib\site-packages\django\urls\base.py", line 88, in reverse
+    return resolver._reverse_with_prefix(view, prefix, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\MOHAMMAD\Desktop\django projects\Tourism\env\Lib\site-packages\django\urls\resolvers.py", line 851, in _reverse_with_prefix
+    raise NoReverseMatch(msg)
+django.urls.exceptions.NoReverseMatch: Reverse for 'places' with no arguments not found. 1 pattern(s) tried: ['places/(?P<code>[0-9]+)/\\Z']
+ERROR basehttp "GET / HTTP/1.1" 500 167226
+INFO autoreload C:\Users\MOHAMMAD\Desktop\django projects\Tourism\home\views.py changed, reloading.
+INFO autoreload Watching for file changes with StatReloader
+INFO autoreload C:\Users\MOHAMMAD\Desktop\django projects\Tourism\home\views.py changed, reloading.
+INFO autoreload Watching for file changes with StatReloader
+INFO autoreload C:\Users\MOHAMMAD\Desktop\django projects\Tourism\home\views.py changed, reloading.
+INFO autoreload Watching for file changes with StatReloader
+INFO autoreload C:\Users\MOHAMMAD\Desktop\django projects\Tourism\home\views.py changed, reloading.
+INFO autoreload Watching for file changes with StatReloader
+INFO autoreload C:\Users\MOHAMMAD\Desktop\django projects\Tourism\home\views.py changed, reloading.
+INFO autoreload Watching for file changes with StatReloader
+INFO autoreload C:\Users\MOHAMMAD\Desktop\django projects\Tourism\home\views.py changed, reloading.
+INFO autoreload Watching for file changes with StatReloader
+INFO autoreload C:\Users\MOHAMMAD\Desktop\django projects\Tourism\home\views.py changed, reloading.
+INFO autoreload Watching for file changes with StatReloader
+INFO autoreload C:\Users\MOHAMMAD\Desktop\django projects\Tourism\home\views.py changed, reloading.
+INFO autoreload Watching for file changes with StatReloader
+INFO autoreload C:\Users\MOHAMMAD\Desktop\django projects\Tourism\home\views.py changed, reloading.
+INFO autoreload Watching for file changes with StatReloader
+INFO autoreload C:\Users\MOHAMMAD\Desktop\django projects\Tourism\home\views.py changed, reloading.
+INFO autoreload Watching for file changes with StatReloader
+INFO autoreload C:\Users\MOHAMMAD\Desktop\django projects\Tourism\home\views.py changed, reloading.
+INFO autoreload Watching for file changes with StatReloader
+INFO autoreload C:\Users\MOHAMMAD\Desktop\django projects\Tourism\home\views.py changed, reloading.
+INFO autoreload Watching for file changes with StatReloader
+INFO autoreload C:\Users\MOHAMMAD\Desktop\django projects\Tourism\home\views.py changed, reloading.
+INFO autoreload Watching for file changes with StatReloader
+INFO autoreload C:\Users\MOHAMMAD\Desktop\django projects\Tourism\home\views.py changed, reloading.
+INFO autoreload Watching for file changes with StatReloader
+INFO autoreload C:\Users\MOHAMMAD\Desktop\django projects\Tourism\home\views.py changed, reloading.
+INFO autoreload Watching for file changes with StatReloader
+INFO autoreload C:\Users\MOHAMMAD\Desktop\django projects\Tourism\home\views.py changed, reloading.
+INFO autoreload Watching for file changes with StatReloader
+INFO autoreload C:\Users\MOHAMMAD\Desktop\django projects\Tourism\home\views.py changed, reloading.
+INFO autoreload Watching for file changes with StatReloader
+INFO basehttp "GET / HTTP/1.1" 200 57183
+INFO basehttp "GET / HTTP/1.1" 200 57183
+INFO basehttp "GET /places/0/ HTTP/1.1" 200 22699
+INFO basehttp "GET /media/places/milad_HVJSW26.jpg HTTP/1.1" 304 0
+INFO basehttp "GET /media/places/R.jpg HTTP/1.1" 304 0
+INFO basehttp "GET /media/places/lale_park.jpg HTTP/1.1" 304 0
+INFO basehttp "GET /media/places/OIP_1.jpg HTTP/1.1" 304 0
+INFO basehttp "GET /media/places/OIP_2.jpg HTTP/1.1" 304 0
+INFO basehttp "GET /media/places/OIP_3.jpg HTTP/1.1" 304 0
+INFO basehttp "GET /media/places/ac-image-0P1657164459HD.jpeg HTTP/1.1" 304 0
+INFO basehttp "GET / HTTP/1.1" 200 57183
+INFO basehttp "GET / HTTP/1.1" 200 57487
+INFO basehttp "GET / HTTP/1.1" 200 57911
+INFO basehttp "GET / HTTP/1.1" 200 57418
+INFO basehttp "GET / HTTP/1.1" 200 57413
+INFO basehttp "GET / HTTP/1.1" 200 57307
+INFO basehttp "GET / HTTP/1.1" 200 57030
+INFO basehttp "GET / HTTP/1.1" 200 56930
+INFO basehttp "GET / HTTP/1.1" 200 56972
+INFO basehttp "GET / HTTP/1.1" 200 56985
+INFO basehttp "GET / HTTP/1.1" 200 56990
+INFO basehttp "GET / HTTP/1.1" 200 56995
+INFO basehttp "GET / HTTP/1.1" 200 57294
+INFO basehttp "GET / HTTP/1.1" 200 57294
+INFO basehttp "GET / HTTP/1.1" 200 57022
+INFO basehttp "GET / HTTP/1.1" 200 57032
+INFO basehttp "GET / HTTP/1.1" 200 57042
+INFO basehttp "GET / HTTP/1.1" 200 57043
+INFO basehttp "GET / HTTP/1.1" 200 57045
+INFO basehttp "GET / HTTP/1.1" 200 57035
+INFO basehttp "GET / HTTP/1.1" 200 57035
+INFO basehttp "GET / HTTP/1.1" 200 57385
+INFO basehttp "GET / HTTP/1.1" 200 57010
+INFO basehttp "GET / HTTP/1.1" 200 56998

@@ -44,9 +44,9 @@ def places(request,code):
             location_name = request.POST.get('makan')
             print(city_name,location_name)
             result = Place.objects.filter(city=city_name,location_type=location_name)
-            return render(request , 'list.html',{"objects" : result})
-
-    objects = Place.objects.all()
-    return render(request , 'list.html',{"objects" : objects})
+            #return render(request , 'list.html',{"objects" : result})
+    else :
+        result = Place.objects.all()
+    return render(request , 'list.html',{"objects" : result})
 
 
