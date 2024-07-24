@@ -11,7 +11,7 @@
   <div class="container">
     <div class="title">Registration</div>
     <div class="content">
-      <form method='post' action="#">
+      <form method='post' action="{% url "account:signup" %}" enctype="multipart/form-data">
         {% csrf_token %}
         <div class="user-details">
           <div class="input-box">
@@ -39,23 +39,19 @@
             <input type="text" placeholder="Confirm your password" name='password2' required>
           </div>
         </div>
-        <div class="gender-details">
-          <input type="radio" name="gender" id="dot-1">
-          <input type="radio" name="gender" id="dot-2">
-          <input type="radio" name="gender" id="dot-3">
-          <span class="gender-title">Profile Photo</span>
-          <div class="category">
-            <label for="dot-1">
-              <input type="file" id="imageUpload" name="profile_photo" accept="image/*">
-          </label>
           
-            
-          </div>
-        </div>
+          <span class="gender-title">Profile Photo</span>
+
+              <input type="file" id="profile_photo" name="profile_photo" >
         <div class="button">
           <input type="submit" value="Register">
         </div>
       </form>
+      {% if form.errors %}
+        <div class="errors">
+            {{ form.errors }}
+        </div>
+    {% endif %}
     </div>
   </div>
 

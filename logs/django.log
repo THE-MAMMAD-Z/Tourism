@@ -1182,3 +1182,243 @@ INFO basehttp "GET /auth/profile/ HTTP/1.1" 200 12601
 INFO basehttp "GET / HTTP/1.1" 200 57154
 INFO basehttp "GET /auth/profile/ HTTP/1.1" 200 12601
 INFO basehttp "GET /auth/profile/ HTTP/1.1" 200 12651
+INFO basehttp "GET /auth/profile/ HTTP/1.1" 200 12651
+INFO basehttp "GET /auth/profile/ HTTP/1.1" 200 12651
+INFO basehttp "GET /auth/profile/ HTTP/1.1" 200 12649
+INFO basehttp "GET /auth/logout/ HTTP/1.1" 302 0
+INFO basehttp "GET / HTTP/1.1" 200 57150
+INFO basehttp "GET /auth/login/ HTTP/1.1" 200 1152
+INFO basehttp "GET /auth/signup/ HTTP/1.1" 200 2407
+INFO basehttp "POST /auth/signup/ HTTP/1.1" 200 2407
+INFO basehttp "POST /auth/signup/ HTTP/1.1" 200 2419
+INFO basehttp "GET /auth/signup/ HTTP/1.1" 200 2419
+INFO basehttp "POST /auth/signup/ HTTP/1.1" 200 2419
+INFO basehttp "GET /admin/ HTTP/1.1" 302 0
+INFO basehttp "GET /admin/login/?next=/admin/ HTTP/1.1" 200 4158
+INFO basehttp "GET /admin/ HTTP/1.1" 302 0
+INFO basehttp "GET /admin/login/?next=/admin/ HTTP/1.1" 200 4158
+INFO basehttp "POST /admin/login/?next=/admin/ HTTP/1.1" 302 0
+INFO basehttp "GET /admin/ HTTP/1.1" 200 10796
+INFO basehttp "GET /admin/account/customuser/ HTTP/1.1" 200 10092
+INFO basehttp "GET /admin/jsi18n/ HTTP/1.1" 200 3342
+INFO autoreload C:\Users\MOHAMMAD\Desktop\django projects\Tourism\account\views.py changed, reloading.
+INFO autoreload Watching for file changes with StatReloader
+INFO autoreload C:\Users\MOHAMMAD\Desktop\django projects\Tourism\account\views.py changed, reloading.
+INFO autoreload Watching for file changes with StatReloader
+INFO autoreload C:\Users\MOHAMMAD\Desktop\django projects\Tourism\account\views.py changed, reloading.
+INFO autoreload Watching for file changes with StatReloader
+INFO autoreload C:\Users\MOHAMMAD\Desktop\django projects\Tourism\account\views.py changed, reloading.
+INFO autoreload Watching for file changes with StatReloader
+INFO basehttp "GET / HTTP/1.1" 200 57154
+INFO basehttp "GET /auth/profile/ HTTP/1.1" 200 12631
+INFO basehttp "GET /auth/logout/ HTTP/1.1" 302 0
+INFO basehttp "GET / HTTP/1.1" 200 57150
+INFO basehttp "GET /auth/login/ HTTP/1.1" 200 1152
+INFO basehttp "GET /auth/signup/ HTTP/1.1" 200 2419
+INFO basehttp "POST /auth/signup/ HTTP/1.1" 200 2419
+INFO autoreload C:\Users\MOHAMMAD\Desktop\django projects\Tourism\account\views.py changed, reloading.
+INFO autoreload Watching for file changes with StatReloader
+INFO autoreload C:\Users\MOHAMMAD\Desktop\django projects\Tourism\account\views.py changed, reloading.
+INFO autoreload Watching for file changes with StatReloader
+INFO basehttp "POST /auth/signup/ HTTP/1.1" 200 2419
+INFO basehttp "POST /auth/signup/ HTTP/1.1" 200 2419
+INFO autoreload Watching for file changes with StatReloader
+INFO basehttp "GET / HTTP/1.1" 200 57150
+INFO basehttp "GET /auth/signup/ HTTP/1.1" 200 2419
+WARNING log Not Found: /favicon.ico
+WARNING basehttp "GET /favicon.ico HTTP/1.1" 404 3335
+INFO basehttp "POST /auth/signup/ HTTP/1.1" 200 2419
+INFO autoreload C:\Users\MOHAMMAD\Desktop\django projects\Tourism\account\views.py changed, reloading.
+INFO autoreload Watching for file changes with StatReloader
+INFO basehttp "POST /auth/signup/ HTTP/1.1" 200 2419
+INFO basehttp "POST /auth/signup/ HTTP/1.1" 302 0
+INFO basehttp "GET / HTTP/1.1" 200 57154
+INFO autoreload C:\Users\MOHAMMAD\Desktop\django projects\Tourism\account\views.py changed, reloading.
+INFO autoreload Watching for file changes with StatReloader
+INFO basehttp "GET /auth/profile/ HTTP/1.1" 200 12648
+WARNING basehttp "GET /static/img/favicon.ico HTTP/1.1" 404 1905
+INFO basehttp "GET /auth/signup/ HTTP/1.1" 200 2223
+INFO basehttp "GET /auth/signup/ HTTP/1.1" 200 2419
+INFO basehttp "GET /auth/signup/ HTTP/1.1" 200 2241
+INFO basehttp "GET /auth/signup/ HTTP/1.1" 200 2188
+INFO basehttp "GET /auth/signup/ HTTP/1.1" 200 2136
+INFO basehttp "POST /auth/signup/ HTTP/1.1" 302 0
+INFO basehttp "GET / HTTP/1.1" 200 57154
+INFO basehttp "GET /auth/profile/ HTTP/1.1" 200 12649
+INFO autoreload C:\Users\MOHAMMAD\Desktop\django projects\Tourism\account\views.py changed, reloading.
+INFO autoreload Watching for file changes with StatReloader
+INFO basehttp "GET /auth/logout/ HTTP/1.1" 302 0
+INFO basehttp "GET / HTTP/1.1" 200 57150
+INFO basehttp "GET /auth/profile/ HTTP/1.1" 302 0
+WARNING log Not Found: /accounts/login/
+WARNING basehttp "GET /accounts/login/?next=/auth/profile/ HTTP/1.1" 404 3367
+INFO basehttp "GET /auth/signup/ HTTP/1.1" 200 2122
+INFO autoreload C:\Users\MOHAMMAD\Desktop\django projects\Tourism\account\views.py changed, reloading.
+INFO autoreload Watching for file changes with StatReloader
+INFO autoreload C:\Users\MOHAMMAD\Desktop\django projects\Tourism\account\views.py changed, reloading.
+INFO autoreload Watching for file changes with StatReloader
+INFO basehttp "POST /auth/signup/ HTTP/1.1" 302 0
+INFO basehttp "GET / HTTP/1.1" 200 57154
+INFO basehttp "GET /auth/profile/ HTTP/1.1" 200 12642
+INFO basehttp "GET /auth/profile/ HTTP/1.1" 200 12642
+INFO basehttp "GET /auth/signup/ HTTP/1.1" 200 2501
+INFO basehttp "POST /auth/signup/ HTTP/1.1" 302 0
+INFO basehttp "GET / HTTP/1.1" 200 57154
+INFO basehttp "GET /auth/profile/ HTTP/1.1" 200 12647
+INFO basehttp "GET /auth/signup/ HTTP/1.1" 200 2531
+INFO basehttp "POST /auth/signup/ HTTP/1.1" 302 0
+INFO basehttp "GET / HTTP/1.1" 200 57154
+INFO basehttp "GET /auth/profile/ HTTP/1.1" 200 12735
+INFO basehttp "GET /media/profile_photos/noun-museum-3129.png HTTP/1.1" 200 11820
+INFO basehttp "GET /auth/logout/ HTTP/1.1" 302 0
+INFO basehttp "GET / HTTP/1.1" 200 57150
+INFO basehttp "GET /auth/login/ HTTP/1.1" 200 1152
+INFO basehttp "GET /auth/signup/ HTTP/1.1" 200 2531
+INFO basehttp "POST /auth/signup/ HTTP/1.1" 302 0
+INFO basehttp "GET / HTTP/1.1" 200 57154
+INFO basehttp "GET /auth/profile/ HTTP/1.1" 200 12807
+INFO basehttp "GET /media/profile_photos/alps-2560x1440-5k-4k-wallpaper-germany-meadows-mountains-grass-daisies-5524.jpg HTTP/1.1" 200 1589543
+INFO autoreload C:\Users\MOHAMMAD\Desktop\django projects\Tourism\account\views.py changed, reloading.
+INFO autoreload Watching for file changes with StatReloader
+INFO basehttp "GET /auth/signup/ HTTP/1.1" 200 2109
+INFO basehttp "POST /auth/signup/ HTTP/1.1" 302 0
+INFO basehttp "GET / HTTP/1.1" 200 57154
+INFO basehttp "GET /auth/profile/ HTTP/1.1" 200 12763
+INFO basehttp "GET /media/profile_photos/black-2560x1440-background-26109.jpeg HTTP/1.1" 200 459104
+INFO basehttp "GET /auth/profile/ HTTP/1.1" 200 11946
+INFO basehttp "GET /media/profile_photos/black-2560x1440-background-26109.jpeg HTTP/1.1" 304 0
+INFO basehttp "GET / HTTP/1.1" 200 57154
+INFO autoreload Watching for file changes with StatReloader
+INFO basehttp "GET / HTTP/1.1" 200 57154
+WARNING log Not Found: /favicon.ico
+WARNING basehttp "GET /favicon.ico HTTP/1.1" 404 3335
+WARNING log Not Found: /api/
+WARNING basehttp "GET /api/ HTTP/1.1" 404 3314
+INFO autoreload C:\Users\MOHAMMAD\Desktop\django projects\Tourism\core\urls.py changed, reloading.
+INFO autoreload Watching for file changes with StatReloader
+INFO autoreload C:\Users\MOHAMMAD\Desktop\django projects\Tourism\core\urls.py changed, reloading.
+INFO autoreload Watching for file changes with StatReloader
+INFO autoreload C:\Users\MOHAMMAD\Desktop\django projects\Tourism\core\urls.py changed, reloading.
+INFO autoreload Watching for file changes with StatReloader
+INFO autoreload C:\Users\MOHAMMAD\Desktop\django projects\Tourism\api\views.py changed, reloading.
+INFO autoreload Watching for file changes with StatReloader
+INFO autoreload Watching for file changes with StatReloader
+INFO autoreload Watching for file changes with StatReloader
+INFO autoreload Watching for file changes with StatReloader
+INFO autoreload C:\Users\MOHAMMAD\Desktop\django projects\Tourism\core\settings.py changed, reloading.
+INFO autoreload Watching for file changes with StatReloader
+INFO autoreload C:\Users\MOHAMMAD\Desktop\django projects\Tourism\api\views.py changed, reloading.
+INFO autoreload Watching for file changes with StatReloader
+INFO autoreload C:\Users\MOHAMMAD\Desktop\django projects\Tourism\api\views.py changed, reloading.
+INFO autoreload Watching for file changes with StatReloader
+INFO autoreload C:\Users\MOHAMMAD\Desktop\django projects\Tourism\api\views.py changed, reloading.
+INFO autoreload Watching for file changes with StatReloader
+INFO autoreload C:\Users\MOHAMMAD\Desktop\django projects\Tourism\api\views.py changed, reloading.
+INFO autoreload Watching for file changes with StatReloader
+INFO autoreload C:\Users\MOHAMMAD\Desktop\django projects\Tourism\api\views.py changed, reloading.
+INFO autoreload Watching for file changes with StatReloader
+INFO autoreload C:\Users\MOHAMMAD\Desktop\django projects\Tourism\api\views.py changed, reloading.
+INFO autoreload Watching for file changes with StatReloader
+INFO autoreload C:\Users\MOHAMMAD\Desktop\django projects\Tourism\api\views.py changed, reloading.
+INFO autoreload Watching for file changes with StatReloader
+INFO autoreload C:\Users\MOHAMMAD\Desktop\django projects\Tourism\api\views.py changed, reloading.
+INFO autoreload Watching for file changes with StatReloader
+INFO autoreload C:\Users\MOHAMMAD\Desktop\django projects\Tourism\api\views.py changed, reloading.
+INFO autoreload Watching for file changes with StatReloader
+WARNING log Not Found: /api/
+WARNING basehttp "GET /api/ HTTP/1.1" 404 4034
+INFO autoreload Watching for file changes with StatReloader
+WARNING log Not Found: /api/
+WARNING basehttp "GET /api/ HTTP/1.1" 404 4036
+INFO basehttp "GET /api/place HTTP/1.1" 301 0
+INFO basehttp "GET /api/place/ HTTP/1.1" 200 18398
+INFO basehttp "GET /api/place/4 HTTP/1.1" 301 0
+INFO basehttp "GET /api/place/4/ HTTP/1.1" 200 17574
+ERROR log Internal Server Error: /api/user/4/
+Traceback (most recent call last):
+  File "C:\Users\MOHAMMAD\Desktop\django projects\Tourism\env\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\MOHAMMAD\Desktop\django projects\Tourism\env\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\MOHAMMAD\Desktop\django projects\Tourism\env\Lib\site-packages\django\views\decorators\csrf.py", line 65, in _view_wrapper
+    return view_func(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\MOHAMMAD\Desktop\django projects\Tourism\env\Lib\site-packages\django\views\generic\base.py", line 104, in view
+    return self.dispatch(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\MOHAMMAD\Desktop\django projects\Tourism\env\Lib\site-packages\rest_framework\views.py", line 509, in dispatch
+    response = self.handle_exception(exc)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\MOHAMMAD\Desktop\django projects\Tourism\env\Lib\site-packages\rest_framework\views.py", line 469, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "C:\Users\MOHAMMAD\Desktop\django projects\Tourism\env\Lib\site-packages\rest_framework\views.py", line 480, in raise_uncaught_exception
+    raise exc
+  File "C:\Users\MOHAMMAD\Desktop\django projects\Tourism\env\Lib\site-packages\rest_framework\views.py", line 506, in dispatch
+    response = handler(request, *args, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\MOHAMMAD\Desktop\django projects\Tourism\env\Lib\site-packages\rest_framework\generics.py", line 286, in get
+    return self.retrieve(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\MOHAMMAD\Desktop\django projects\Tourism\env\Lib\site-packages\rest_framework\mixins.py", line 56, in retrieve
+    return Response(serializer.data)
+                    ^^^^^^^^^^^^^^^
+  File "C:\Users\MOHAMMAD\Desktop\django projects\Tourism\env\Lib\site-packages\rest_framework\serializers.py", line 571, in data
+    ret = super().data
+          ^^^^^^^^^^^^
+  File "C:\Users\MOHAMMAD\Desktop\django projects\Tourism\env\Lib\site-packages\rest_framework\serializers.py", line 249, in data
+    self._data = self.to_representation(self.instance)
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\MOHAMMAD\Desktop\django projects\Tourism\env\Lib\site-packages\rest_framework\serializers.py", line 523, in to_representation
+    for field in fields:
+  File "C:\Users\MOHAMMAD\Desktop\django projects\Tourism\env\Lib\site-packages\rest_framework\serializers.py", line 384, in _readable_fields
+    for field in self.fields.values():
+                 ^^^^^^^^^^^
+  File "C:\Users\MOHAMMAD\Desktop\django projects\Tourism\env\Lib\site-packages\django\utils\functional.py", line 47, in __get__
+    res = instance.__dict__[self.name] = self.func(instance)
+                                         ^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\MOHAMMAD\Desktop\django projects\Tourism\env\Lib\site-packages\rest_framework\serializers.py", line 372, in fields
+    for key, value in self.get_fields().items():
+                      ^^^^^^^^^^^^^^^^^
+  File "C:\Users\MOHAMMAD\Desktop\django projects\Tourism\env\Lib\site-packages\rest_framework\serializers.py", line 1103, in get_fields
+    field_class, field_kwargs = self.build_field(
+                                ^^^^^^^^^^^^^^^^^
+  File "C:\Users\MOHAMMAD\Desktop\django projects\Tourism\env\Lib\site-packages\rest_framework\serializers.py", line 1249, in build_field
+    return self.build_unknown_field(field_name, model_class)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\MOHAMMAD\Desktop\django projects\Tourism\env\Lib\site-packages\rest_framework\serializers.py", line 1367, in build_unknown_field
+    raise ImproperlyConfigured(
+django.core.exceptions.ImproperlyConfigured: Field name `tags` is not valid for model `CustomUser` in `api.serializer.UserSerialiser`.
+ERROR basehttp "GET /api/user/4/ HTTP/1.1" 500 149658
+INFO autoreload C:\Users\MOHAMMAD\Desktop\django projects\Tourism\api\serializer.py changed, reloading.
+INFO autoreload Watching for file changes with StatReloader
+INFO basehttp "GET /api/user/4/ HTTP/1.1" 200 16470
+INFO basehttp "GET /api/user/ HTTP/1.1" 200 19161
+INFO basehttp "GET /api/user/10 HTTP/1.1" 301 0
+INFO basehttp "GET /api/user/10/ HTTP/1.1" 200 16483
+INFO basehttp "DELETE /api/user/10/ HTTP/1.1" 200 15715
+INFO basehttp "GET /api/user/9/ HTTP/1.1" 200 10631
+INFO basehttp "GET /admin/ HTTP/1.1" 302 0
+INFO basehttp "GET /admin/login/?next=/admin/ HTTP/1.1" 200 4158
+INFO basehttp "GET /static/admin/css/base.css HTTP/1.1" 304 0
+INFO basehttp "GET /admin/ HTTP/1.1" 302 0
+INFO basehttp "GET /admin/login/?next=/admin/ HTTP/1.1" 200 4158
+INFO basehttp "POST /admin/login/?next=/admin/ HTTP/1.1" 302 0
+INFO basehttp "GET /admin/ HTTP/1.1" 200 10796
+INFO basehttp "GET /static/admin/img/icon-changelink.svg HTTP/1.1" 304 0
+INFO basehttp "GET /static/admin/img/icon-addlink.svg HTTP/1.1" 304 0
+WARNING log Not Found: /api/
+WARNING basehttp "GET /api/ HTTP/1.1" 404 4036
+INFO basehttp "GET /api/user/9 HTTP/1.1" 301 0
+INFO basehttp "GET /api/user/9/ HTTP/1.1" 200 16480
+INFO basehttp "DELETE /api/user/9/ HTTP/1.1" 200 15704
+INFO basehttp "GET /api/user/8/ HTTP/1.1" 200 16438
+INFO basehttp "DELETE /api/user/8/ HTTP/1.1" 200 15704
+INFO basehttp "GET /api/user/7/ HTTP/1.1" 200 16468
+INFO basehttp "DELETE /api/user/7/ HTTP/1.1" 200 15704
+INFO basehttp "GET /api/user/6/ HTTP/1.1" 200 16451
+INFO basehttp "DELETE /api/user/6/ HTTP/1.1" 200 15704
+INFO basehttp "GET /api/user/5/ HTTP/1.1" 200 16472
+INFO basehttp "DELETE /api/user/5/ HTTP/1.1" 200 15704
+INFO basehttp "GET /api/user/4/ HTTP/1.1" 200 16468

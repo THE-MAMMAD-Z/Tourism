@@ -24,6 +24,8 @@ class SignUpView(View):
             user = form.save()
             login(request, user)
             return redirect('home:home')
+        else:
+            print("Form errors:", form.errors)  
         return render(request, 'account/register2.html', {'form': form})
 
 class CustomLoginView(LoginView):
@@ -62,11 +64,3 @@ def ProfileView(request):
     }
     return render(request,'account/profile.html',context)
 
-# class ProfileView(LoginRequiredMixin, DetailView):
-#     model = CustomUser
-#     template_name = 'account/profile.html'
-#     context_object_name = 'profile'
-#     login_url = '/auth/login/'  # Update this to your login URL if different
-
-#     def get_object(self):
-#         return get_object_or_404(CustomUser, username=self.kwargs['username'])
