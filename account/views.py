@@ -47,7 +47,7 @@ class CustomLoginView(LoginView):
 #     return render(request,'account/login2.html')
 
 
-@login_required
+
 def logout_view(request):
     logout(request)
     return redirect('home:home')
