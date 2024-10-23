@@ -7,7 +7,7 @@ from datetime import datetime
 @receiver(post_save, sender=Place)
 def log_place_creation(sender, instance, created, **kwargs):
     if created:
-        log_message = f"Place Created: {instance.title}, Created at: {datetime.now()}\n"
+        log_message = f"Place Created: {instance.name}, Created at: {datetime.now()}\n"
         log_file_path = os.path.join(os.path.dirname(__file__), 'Place_log.txt')
 
         with open(log_file_path, 'a') as log_file:

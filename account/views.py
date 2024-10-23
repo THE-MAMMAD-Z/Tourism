@@ -35,17 +35,6 @@ class CustomLoginView(LoginView):
             
             return reverse('home:home')
 
-# def CustomLoginView(request):
-#     if request.method == "POST":
-#         username = request.POST.get('username')
-#         password = request.POST.get('password')
-#         user=authenticate(request , username=username ,password=password)
-#         if user :
-#             login(request,user)
-#             messages.success(request, 'You have successfully logged in!')
-#             return redirect('home:home')
-#     return render(request,'account/login2.html')
-
 
 
 def logout_view(request):
