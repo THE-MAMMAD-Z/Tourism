@@ -36,9 +36,9 @@ LOCATION_FIELD = {
 SECRET_KEY = 'django-insecure-znw9%os@9n2ax^12g%(6*((t)mn_t&4y_zr2g(hsn0ji@n#3*m'
 
 # SECURITY WARNING: don't run with debug turned on in production!
-DEBUG = True
+DEBUG = False
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = ['0.0.0.0']
 
 # Application definition
 
